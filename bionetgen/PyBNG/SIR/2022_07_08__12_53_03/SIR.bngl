@@ -24,5 +24,5 @@ begin reaction rules
 end reaction rules
 end model
 
-visualize({type=>"regulatory",background=>1,ruleNames=>1})
-#simulate({method=>"ode",t_end=>100,n_steps=>200})
+visualize({type=>"regulatory",background=>1,ruleLabels=>1})
+simulate({method=>"ode",t_end=>100,n_steps=>200})
