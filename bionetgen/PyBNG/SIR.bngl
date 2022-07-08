@@ -1,0 +1,27 @@
+begin model
+begin parameters
+  N 100
+  I0  1
+  b 1.8/N
+  g 1
+end parameters
+
+begin species
+  S   N-I0
+  I   I0
+  R   0
+end species
+
+begin observables
+  Molecules S S()
+  Molecules I I()
+  Molecules R R()
+end observables
+
+begin reaction rules
+  S + I -> I + I b
+  I -> R g
+end reaction rules
+end model
+
+simulate({method=>"ode",t_end=>100,n_steps=>200})
