@@ -1,0 +1,38 @@
+begin model
+
+begin parameters
+  Nav 6.02e+8
+  V (0.5*0.5)*0.01
+  k1 129000
+  k2 1e+8
+  k3 130000
+  _rateLaw1 k2/(Nav*V)
+end parameters
+
+begin molecule types
+  S()
+  W()
+end molecule types
+
+begin species
+  S() 1000
+  W() 500
+end species
+
+begin observables
+  Molecules Stot S()
+  Molecules Wtot W()
+end observables
+
+begin reaction rules
+  _R1: S() -> S() + S() k1 
+  _R2: S() + W() -> W() + W() _rateLaw1 
+  _R3: W() -> 0 k3 
+end reaction rules
+
+end model
+
+visualize({type=>'contactmap'})
+visualize({type=>'ruleviz_pattern'})
+visualize({type=>'ruleviz_operation'})
+visualize({type=>'regulatory'})

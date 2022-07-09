@@ -1,0 +1,43 @@
+BioNetGen version 2.8.3
+Reading from file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/Workshop_2022/bionetgen/HandsOn_I/LV/2022_07_08__17_35_16/LV.bngl (level 0)
+Read 5 parameters.
+Read 2 species.
+Read 2 observable(s).
+Read 3 reaction rule(s).
+ACTION: generate_network( LV )
+Iteration   0:     2 species      0 rxns  0.00e+00 CPU s
+Iteration   1:     2 species      3 rxns  0.00e+00 CPU s
+Cumulative CPU time for each rule
+Rule   1:     1 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   2:     1 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   3:     1 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Total   :     3 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Wrote network in net format to ./LV.net.
+CPU TIME: generate_network 0.00 s.
+Wrote SBML to ./LV_sbml.xml.
+CPU TIME: writeSBML 0.00 s.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+WARNING: writeFile(): Overwriting existing file ./LV.net.
+Wrote network in net format to ./LV.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LV -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LV.net ./LV.net 1e-06 1000
+[simulation PID is: 47279]
+run_network 3.0
+Read 6 parameters from ./LV.net
+Read 2 species from ./LV.net
+Read 2 group(s) from ./LV.net
+Read 0 function(s) from ./LV.net
+Found species with index 0 at line 17: assuming this is the null species.
+Read 3 reaction(s) from ./LV.net
+3 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LV.cdat.
+Time course of groups written to file ./LV.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LV.cdat
+CPU TIME: simulate 0.01 s.
+Finished processing file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/Workshop_2022/bionetgen/HandsOn_I/LV/2022_07_08__17_35_16/LV.bngl.
+CPU TIME: total 0.01 s.

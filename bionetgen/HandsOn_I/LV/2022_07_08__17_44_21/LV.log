@@ -1,0 +1,13 @@
+BioNetGen version 2.8.3
+Reading from file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/Workshop_2022/bionetgen/HandsOn_I/LV/2022_07_08__17_44_21/LV.bngl (level 0)
+Read 5 parameters.
+Read 2 species.
+Read 2 observable(s).
+Read 3 reaction rule(s).
+Executing visualize() command.
+Building network graphs for individual rules.
+Compiling network graph for whole model.
+Wrote network of rules and atomic patterns in graphml format to ./LV_regulatory.graphml.
+CPU TIME: visualize 0.00 s.
+Finished processing file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/Workshop_2022/bionetgen/HandsOn_I/LV/2022_07_08__17_44_21/LV.bngl.
+CPU TIME: total 0.00 s.

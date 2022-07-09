@@ -19,10 +19,10 @@ begin observables
 end observables
 
 begin reaction rules
-  S + I -> I + I b
-  I -> R g
+  R1: S + I -> I + I b
+  R2: I -> R g
 end reaction rules
 end model
 
-# visualize({type=>"regulatory",background=>1,ruleNames=>1})
-simulate({method=>"ode",t_end=>100,n_steps=>200})
+visualize({type=>"regulatory",background=>1,ruleNames=>1})
+#simulate({method=>"ode",t_end=>100,n_steps=>200})

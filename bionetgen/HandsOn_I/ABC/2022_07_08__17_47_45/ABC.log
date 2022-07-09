@@ -1,0 +1,14 @@
+BioNetGen version 2.8.3
+Reading from file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/Workshop_2022/bionetgen/HandsOn_I/ABC/2022_07_08__17_47_45/ABC.bngl (level 0)
+Read 2 species.
+Read 3 observable(s).
+Read 1 reaction rule(s).
+Executing visualize() command.
+Building network graphs for individual rules.
+Compiling network graph for whole model.
+Computing background.
+Filtering background.
+Wrote network of rules and atomic patterns in graphml format to ./ABC_regulatory.graphml.
+CPU TIME: visualize 0.00 s.
+Finished processing file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/Workshop_2022/bionetgen/HandsOn_I/ABC/2022_07_08__17_47_45/ABC.bngl.
+CPU TIME: total 0.00 s.
