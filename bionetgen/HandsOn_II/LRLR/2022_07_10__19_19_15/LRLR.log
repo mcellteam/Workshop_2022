@@ -1,0 +1,69 @@
+BioNetGen version 2.8.3
+Reading from file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/BioNetGen/Workshop_2022/bionetgen/HandsOn_II/LRLR/2022_07_10__19_19_15/LRLR.bngl (level 0)
+Read 3 parameters.
+Read 2 molecule types.
+Read 2 species.
+Read 5 observable(s).
+Read 1 reaction rule(s).
+ACTION: simulate( method=>"nf" )
+NetworkFree simulation using nf
+ACTION: simulate_nf( )
+Wrote model in xml format to ./LRLR.xml.
+Running NFsim on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/NFsim -xml ./LRLR.xml -o ./LRLR.gdat -sim 5 -oSteps 200 -cb -seed 423951671 -ss ./LRLR.species
+[simulation PID is: 71817]
+starting NFsim v1.2.2...
+
+Seeding random number generator with: 423951671
+reading xml file (./LRLR.xml)
+[----
+Warning!! Creating a Species Observable!  NFsim does not keep track of Species
+by default, so this type of observable requires complex bookkeeping to be turned on
+which makes NFsim run slower.  Be sure that you need this observable!
+
+
+Warning!! Creating a Species Observable!  NFsim does not keep track of Species
+by default, so this type of observable requires complex bookkeeping to be turned on
+which makes NFsim run slower.  Be sure that you need this observable!
+
+
+Warning!! Creating a Species Observable!  NFsim does not keep track of Species
+by default, so this type of observable requires complex bookkeeping to be turned on
+which makes NFsim run slower.  Be sure that you need this observable!
+
+
+Warning!! Creating a Species Observable!  NFsim does not keep track of Species
+by default, so this type of observable requires complex bookkeeping to be turned on
+which makes NFsim run slower.  Be sure that you need this observable!
+
+---]
+preparing simulation...
+
+
+
+Equilibrating for :0s.  Please wait.
+
+simulating system for: 5.000000e+00 second(s).
+
+Sim time: 0.000000e+00	CPU time (total): 3.400000e-05s	 events (step): 0
+Sim time: 2.925000e+00	CPU time (total): 6.480000e-04s	 events (step): 20
+Sim time: 4.975000e+00	CPU time (total): 9.950000e-04s	 events (step): 2
+
+You just simulated 23 reactions in 1.007000e-03s
+( 2.284012e+04 reactions/sec, 4.378261e-05 CPU seconds/event )
+Null events: 0   (4.378261e-05 CPU seconds/non-null event )
+
+
+saving list of final molecular species...
+
+done.  Total CPU time: 0.006499s
+
+SpeciesLabel max molecule threshold set to 20.
+WARNING: Species with more than 20 molecules will be labeled with the Quasi method.
+readNFspecies::Reading from file ./LRLR.species
+Read 4 unique species of 8 total.
+SpeciesLabel max molecule threshold set to 0.
+(all species will be labeled with the Auto method)
+CPU TIME: simulate 0.01 s.
+Finished processing file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/BioNetGen/Workshop_2022/bionetgen/HandsOn_II/LRLR/2022_07_10__19_19_15/LRLR.bngl.
+CPU TIME: total 0.02 s.

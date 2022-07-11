@@ -1,0 +1,100 @@
+BioNetGen version 2.8.3
+Reading from file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/BioNetGen/Workshop_2022/bionetgen/HandsOn_II/LRLR/2022_07_10__19_21_06/LRLR.bngl (level 0)
+Read 3 parameters.
+Read 2 molecule types.
+Read 2 species.
+Read 5 observable(s).
+Read 1 reaction rule(s).
+ACTION: simulate( method=>"nf" )
+NetworkFree simulation using nf
+ACTION: simulate_nf( )
+Wrote model in xml format to ./LRLR.xml.
+Running NFsim on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/NFsim -xml ./LRLR.xml -o ./LRLR.gdat -sim 5 -oSteps 200 -cb -seed 2055861907 -ss ./LRLR.species
+[simulation PID is: 71969]
+starting NFsim v1.2.2...
+
+Seeding random number generator with: 2055861907
+reading xml file (./LRLR.xml)
+[----
+Warning!! Creating a Species Observable!  NFsim does not keep track of Species
+by default, so this type of observable requires complex bookkeeping to be turned on
+which makes NFsim run slower.  Be sure that you need this observable!
+
+
+Warning!! Creating a Species Observable!  NFsim does not keep track of Species
+by default, so this type of observable requires complex bookkeeping to be turned on
+which makes NFsim run slower.  Be sure that you need this observable!
+
+
+Warning!! Creating a Species Observable!  NFsim does not keep track of Species
+by default, so this type of observable requires complex bookkeeping to be turned on
+which makes NFsim run slower.  Be sure that you need this observable!
+
+
+Warning!! Creating a Species Observable!  NFsim does not keep track of Species
+by default, so this type of observable requires complex bookkeeping to be turned on
+which makes NFsim run slower.  Be sure that you need this observable!
+
+---]
+preparing simulation...
+
+
+
+Equilibrating for :0s.  Please wait.
+
+simulating system for: 5.000000e+00 second(s).
+
+Sim time: 0.000000e+00	CPU time (total): 3.000000e-05s	 events (step): 0
+Sim time: 2.500000e-02	CPU time (total): 5.550000e-04s	 events (step): 164
+Sim time: 5.000000e-02	CPU time (total): 6.510000e-04s	 events (step): 16
+Sim time: 7.500000e-02	CPU time (total): 6.980000e-04s	 events (step): 7
+Sim time: 1.000000e-01	CPU time (total): 7.330000e-04s	 events (step): 3
+Sim time: 1.250000e-01	CPU time (total): 7.540000e-04s	 events (step): 2
+Sim time: 1.500000e-01	CPU time (total): 7.920000e-04s	 events (step): 3
+Sim time: 2.250000e-01	CPU time (total): 8.400000e-04s	 events (step): 3
+Sim time: 3.500000e-01	CPU time (total): 8.840000e-04s	 events (step): 1
+Sim time: 3.750000e-01	CPU time (total): 9.150000e-04s	 events (step): 1
+Sim time: 4.250000e-01	CPU time (total): 9.310000e-04s	 events (step): 1
+Sim time: 4.500000e-01	CPU time (total): 9.530000e-04s	 events (step): 1
+Sim time: 5.750000e-01	CPU time (total): 9.970000e-04s	 events (step): 1
+Sim time: 6.250000e-01	CPU time (total): 1.029000e-03s	 events (step): 1
+Sim time: 6.500000e-01	CPU time (total): 1.039000e-03s	 events (step): 1
+Sim time: 8.000000e-01	CPU time (total): 1.093000e-03s	 events (step): 1
+Sim time: 1.125000e+00	CPU time (total): 1.190000e-03s	 events (step): 1
+Sim time: 1.225000e+00	CPU time (total): 1.228000e-03s	 events (step): 1
+Sim time: 1.500000e+00	CPU time (total): 1.275000e-03s	 events (step): 1
+Sim time: 1.600000e+00	CPU time (total): 1.316000e-03s	 events (step): 1
+Sim time: 1.700000e+00	CPU time (total): 1.335000e-03s	 events (step): 1
+Sim time: 1.750000e+00	CPU time (total): 1.355000e-03s	 events (step): 1
+Sim time: 1.850000e+00	CPU time (total): 1.394000e-03s	 events (step): 1
+Sim time: 1.975000e+00	CPU time (total): 1.446000e-03s	 events (step): 1
+Sim time: 2.450000e+00	CPU time (total): 1.537000e-03s	 events (step): 1
+Sim time: 2.550000e+00	CPU time (total): 1.582000e-03s	 events (step): 2
+Sim time: 2.925000e+00	CPU time (total): 1.645000e-03s	 events (step): 1
+Sim time: 2.975000e+00	CPU time (total): 1.673000e-03s	 events (step): 1
+Sim time: 3.425000e+00	CPU time (total): 1.783000e-03s	 events (step): 2
+Sim time: 4.275000e+00	CPU time (total): 1.936000e-03s	 events (step): 1
+Sim time: 4.600000e+00	CPU time (total): 1.997000e-03s	 events (step): 1
+Sim time: 4.775000e+00	CPU time (total): 2.028000e-03s	 events (step): 1
+Sim time: 4.850000e+00	CPU time (total): 2.073000e-03s	 events (step): 1
+Sim time: 4.975000e+00	CPU time (total): 2.111000e-03s	 events (step): 1
+
+You just simulated 227 reactions in 2.148000e-03s
+( 1.056797e+05 reactions/sec, 9.462555e-06 CPU seconds/event )
+Null events: 9   (9.853211e-06 CPU seconds/non-null event )
+
+
+saving list of final molecular species...
+
+done.  Total CPU time: 0.007655s
+
+SpeciesLabel max molecule threshold set to 20.
+WARNING: Species with more than 20 molecules will be labeled with the Quasi method.
+readNFspecies::Reading from file ./LRLR.species
+Read 2 unique species of 2 total.
+SpeciesLabel max molecule threshold set to 0.
+(all species will be labeled with the Auto method)
+CPU TIME: simulate 0.03 s.
+Finished processing file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/BioNetGen/Workshop_2022/bionetgen/HandsOn_II/LRLR/2022_07_10__19_21_06/LRLR.bngl.
+CPU TIME: total 0.03 s.

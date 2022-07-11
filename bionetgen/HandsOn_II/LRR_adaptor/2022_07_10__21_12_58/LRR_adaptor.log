@@ -1,0 +1,45 @@
+BioNetGen version 2.8.3
+Reading from file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/BioNetGen/Workshop_2022/bionetgen/HandsOn_II/LRR_adaptor/2022_07_10__21_12_58/LRR_adaptor.bngl (level 0)
+Read 10 parameters.
+Read 3 molecule types.
+Read 3 species.
+Read 6 observable(s).
+Read 4 reaction rule(s).
+ACTION: simulate( method=>"cvode" )
+ACTION: generate_network( LRR_adaptor )
+Iteration   0:     3 species      0 rxns  0.00e+00 CPU s
+Iteration   1:     4 species      1 rxns  0.00e+00 CPU s
+Iteration   2:     5 species      3 rxns  0.00e+00 CPU s
+Iteration   3:     6 species      5 rxns  0.00e+00 CPU s
+Iteration   4:     9 species      9 rxns  0.00e+00 CPU s
+Iteration   5:     9 species     18 rxns  1.00e-02 CPU s
+Cumulative CPU time for each rule
+Rule   1:     4 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   2:     8 reactions 1.00e-02 CPU s 1.25e-03 CPU s/rxn
+Rule   3:     2 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   4:     4 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Total   :    18 reactions 1.00e-02 CPU s 5.56e-04 CPU s/rxn
+Wrote network in net format to ./LRR_adaptor.net.
+Network simulation using cvode
+WARNING: writeFile(): Overwriting existing file ./LRR_adaptor.net.
+Wrote network in net format to ./LRR_adaptor.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor.net ./LRR_adaptor.net 0.025 200
+[simulation PID is: 78190]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor.net
+Read 9 species from ./LRR_adaptor.net
+Read 6 group(s) from ./LRR_adaptor.net
+Read 0 function(s) from ./LRR_adaptor.net
+Read 18 reaction(s) from ./LRR_adaptor.net
+18 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor.cdat.
+Time course of groups written to file ./LRR_adaptor.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor.cdat
+CPU TIME: simulate 0.02 s.
+Finished processing file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/BioNetGen/Workshop_2022/bionetgen/HandsOn_II/LRR_adaptor/2022_07_10__21_12_58/LRR_adaptor.bngl.
+CPU TIME: total 0.03 s.

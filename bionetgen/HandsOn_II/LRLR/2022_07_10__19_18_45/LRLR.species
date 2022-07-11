@@ -1,0 +1,11 @@
+# nfsim generated species list for system: 'LRLR'
+# warning! this feature is not yet fully tested! 
+L(r!1,r).R(l!1,l!2).L(r!2,r)  2
+L(r!1,r).R(l!1,l!2).L(r,r!2)  1
+L(r!1,r).R(l!2,l!1).L(r!2,r)  1
+L(r!1,r).R(l,l!1)  1
+L(r,r!1).R(l!1,l!2).L(r!2,r)  1
+L(r,r!1).R(l!1,l!2).L(r,r!2)  1
+L(r,r!1).R(l!2,l!1).L(r!2,r!3).R(l!3,l!4).L(r,r!4)  1
+L(r,r!1).R(l!2,l!1).L(r,r!2)  1
+L(r,r)  82

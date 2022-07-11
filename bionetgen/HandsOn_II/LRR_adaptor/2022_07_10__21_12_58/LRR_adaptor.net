@@ -1,0 +1,52 @@
+# Created by BioNetGen 2.8.3
+begin parameters
+    1 kp1      0.01  # Constant
+    2 km1      1  # Constant
+    3 kp2      100*kp1  # ConstantExpression
+    4 km2      1  # Constant
+    5 kp3      1  # Constant
+    6 km3      1  # Constant
+    7 kp4      1  # Constant
+    8 km4      1  # Constant
+    9 A0       100  # Constant
+   10 L0       100  # Constant
+end parameters
+begin species
+    1 L(r,r) L0
+    2 R(Y~0,l) 10
+    3 A(r) A0
+    4 L(r!1,r).R(Y~0,l!1) 0
+    5 L(r!1,r!2).R(Y~0,l!1).R(Y~0,l!2) 0
+    6 L(r!1,r!2).R(Y~0,l!1).R(Y~P,l!2) 0
+    7 L(r!1,r).R(Y~P,l!1) 0
+    8 R(Y~P,l) 0
+    9 L(r!1,r!2).R(Y~P,l!1).R(Y~P,l!2) 0
+end species
+begin reactions
+    1 1,2 4 2*kp1 #lrbind1
+    2 4 1,2 km1 #_reverse_lrbind1
+    3 2,4 5 kp2 #lrbind2
+    4 5 2,4 2*km2 #_reverse_lrbind2
+    5 5 6 2*kp3 #Rphos
+    6 6 2,7 km2 #_reverse_lrbind2
+    7 6 4,8 km2 #_reverse_lrbind2
+    8 6 9 kp3 #Rphos
+    9 6 5 km3 #dephos
+   10 1,8 7 2*kp1 #lrbind1
+   11 7 1,8 km1 #_reverse_lrbind1
+   12 4,8 6 kp2 #lrbind2
+   13 2,7 6 kp2 #lrbind2
+   14 7,8 9 kp2 #lrbind2
+   15 9 7,8 2*km2 #_reverse_lrbind2
+   16 7 4 km3 #dephos
+   17 8 2 km3 #dephos
+   18 9 6 2*km3 #dephos
+end reactions
+begin groups
+    1 Lfree                1
+    2 LR                   4,7
+    3 LRR                  5,6,9
+    4 Rp_free              6,7,8,2*9
+    5 RpA                  
+    6 Rp_tot               6,7,8,2*9
+end groups

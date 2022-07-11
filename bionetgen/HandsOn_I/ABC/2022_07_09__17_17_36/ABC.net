@@ -1,0 +1,19 @@
+# Created by BioNetGen 2.8.3
+begin parameters
+    1 _rateLaw1  0.01  # Constant
+    2 _rateLaw2  1  # Constant
+end parameters
+begin species
+    1 A() 100
+    2 B() 100
+    3 C() 0
+end species
+begin reactions
+    1 1,2 3 _rateLaw1 #bind
+    2 3 1,2 _rateLaw2 #_reverse_bind
+end reactions
+begin groups
+    1 A                    1
+    2 B                    2
+    3 C                    3
+end groups

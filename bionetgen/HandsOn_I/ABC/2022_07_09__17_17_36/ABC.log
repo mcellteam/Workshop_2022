@@ -1,0 +1,37 @@
+BioNetGen version 2.8.3
+Reading from file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/BioNetGen/Workshop_2022/bionetgen/HandsOn_I/ABC/2022_07_09__17_17_36/ABC.bngl (level 0)
+Read 2 species.
+Read 3 observable(s).
+Read 1 reaction rule(s).
+ACTION: simulate( method=>"cvode" )
+ACTION: generate_network( ABC )
+Iteration   0:     2 species      0 rxns  0.00e+00 CPU s
+Iteration   1:     3 species      1 rxns  0.00e+00 CPU s
+Iteration   2:     3 species      2 rxns  0.00e+00 CPU s
+Cumulative CPU time for each rule
+Rule   1:     2 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Total   :     2 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Wrote network in net format to ./ABC.net.
+Network simulation using cvode
+WARNING: writeFile(): Overwriting existing file ./ABC.net.
+Wrote network in net format to ./ABC.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./ABC -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./ABC.net ./ABC.net 0.05 200
+[simulation PID is: 1393]
+run_network 3.0
+Read 2 parameters from ./ABC.net
+Read 3 species from ./ABC.net
+Read 3 group(s) from ./ABC.net
+Read 0 function(s) from ./ABC.net
+Read 2 reaction(s) from ./ABC.net
+2 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./ABC.cdat.
+Time course of groups written to file ./ABC.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./ABC.cdat
+CPU TIME: simulate 0.00 s.
+Finished processing file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/BioNetGen/Workshop_2022/bionetgen/HandsOn_I/ABC/2022_07_09__17_17_36/ABC.bngl.
+CPU TIME: total 0.00 s.
