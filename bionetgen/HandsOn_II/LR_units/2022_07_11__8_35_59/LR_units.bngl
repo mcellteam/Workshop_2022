@@ -25,4 +25,4 @@ begin reaction rules
   lrbind: L(r) + R(l) <-> L(r!1).R(l!1) kp1/Vec, km1
 end reaction rules
 end model
-simulate({method=>"ode",t_end=>200,n_steps=>200})
+simulate({method=>"ode",t_end=>5,n_steps=>200})
