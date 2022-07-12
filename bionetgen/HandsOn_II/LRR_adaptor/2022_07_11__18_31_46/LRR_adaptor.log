@@ -1,0 +1,2430 @@
+BioNetGen version 2.8.3
+Reading from file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/BioNetGen/Workshop_2022/LRR_adaptor/2022_07_11__18_31_46/LRR_adaptor.bngl (level 0)
+Read 10 parameters.
+Read 3 molecule types.
+Read 3 species.
+Read 6 observable(s).
+Read 5 reaction rule(s).
+ACTION: parameter_scan( )
+Saved current species concentrations with label "SCAN"
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+ACTION: generate_network( LRR_adaptor )
+Iteration   0:     3 species      0 rxns  0.00e+00 CPU s
+Iteration   1:     4 species      1 rxns  0.00e+00 CPU s
+Iteration   2:     5 species      3 rxns  0.00e+00 CPU s
+Iteration   3:     6 species      5 rxns  0.00e+00 CPU s
+Iteration   4:    10 species     10 rxns  0.00e+00 CPU s
+Iteration   5:    13 species     26 rxns  1.00e-02 CPU s
+Iteration   6:    14 species     40 rxns  1.00e-02 CPU s
+Iteration   7:    14 species     42 rxns  0.00e+00 CPU s
+Cumulative CPU time for each rule
+Rule   1:     6 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   2:    18 reactions 2.00e-02 CPU s 1.11e-03 CPU s/rxn
+Rule   3:     3 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   4:     5 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   5:    10 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Total   :    42 reactions 2.00e-02 CPU s 4.76e-04 CPU s/rxn
+Wrote network in net format to ./LRR_adaptor.net.
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00001.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00001 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00001.net ./LRR_adaptor_L0/LRR_adaptor_L0_00001.net 100 10
+[simulation PID is: 45256]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00001.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00001.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00001.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00001.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00001.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00001.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00001.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00001.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1.09749876549306
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00002.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00002 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00002.net ./LRR_adaptor_L0/LRR_adaptor_L0_00002.net 100 10
+[simulation PID is: 45258]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00002.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00002.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00002.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00002.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00002.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00002.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00002.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00002.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1.20450354025878
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00003.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00003 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00003.net ./LRR_adaptor_L0/LRR_adaptor_L0_00003.net 100 10
+[simulation PID is: 45260]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00003.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00003.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00003.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00003.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00003.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00003.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00003.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00003.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1.32194114846603
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00004.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00004 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00004.net ./LRR_adaptor_L0/LRR_adaptor_L0_00004.net 100 10
+[simulation PID is: 45262]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00004.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00004.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00004.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00004.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00004.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00004.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00004.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00004.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1.45082877849594
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00005.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00005 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00005.net ./LRR_adaptor_L0/LRR_adaptor_L0_00005.net 100 10
+[simulation PID is: 45264]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00005.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00005.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00005.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00005.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00005.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00005.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00005.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00005.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1.59228279334109
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00006.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00006 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00006.net ./LRR_adaptor_L0/LRR_adaptor_L0_00006.net 100 10
+[simulation PID is: 45266]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00006.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00006.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00006.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00006.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00006.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00006.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00006.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00006.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1.74752840000768
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00007.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00007 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00007.net ./LRR_adaptor_L0/LRR_adaptor_L0_00007.net 100 10
+[simulation PID is: 45268]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00007.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00007.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00007.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00007.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00007.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00007.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00007.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00007.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1.91791026167249
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00008.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00008 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00008.net ./LRR_adaptor_L0/LRR_adaptor_L0_00008.net 100 10
+[simulation PID is: 45270]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00008.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00008.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00008.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00008.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00008.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00008.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00008.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00008.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 2.10490414451202
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00009.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00009 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00009.net ./LRR_adaptor_L0/LRR_adaptor_L0_00009.net 100 10
+[simulation PID is: 45272]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00009.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00009.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00009.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00009.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00009.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00009.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00009.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00009.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 2.31012970008316
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00010.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00010 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00010.net ./LRR_adaptor_L0/LRR_adaptor_L0_00010.net 100 10
+[simulation PID is: 45274]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00010.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00010.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00010.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00010.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00010.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00010.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00010.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00010.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 2.53536449397011
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00011.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00011 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00011.net ./LRR_adaptor_L0/LRR_adaptor_L0_00011.net 100 10
+[simulation PID is: 45276]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00011.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00011.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00011.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00011.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00011.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00011.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00011.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00011.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 2.78255940220712
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00012.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00012 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00012.net ./LRR_adaptor_L0/LRR_adaptor_L0_00012.net 100 10
+[simulation PID is: 45278]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00012.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00012.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00012.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00012.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00012.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00012.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00012.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00012.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 3.05385550883342
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00013.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00013 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00013.net ./LRR_adaptor_L0/LRR_adaptor_L0_00013.net 100 10
+[simulation PID is: 45280]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00013.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00013.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00013.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00013.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00013.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00013.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00013.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00013.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 3.35160265093884
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00014.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00014 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00014.net ./LRR_adaptor_L0/LRR_adaptor_L0_00014.net 100 10
+[simulation PID is: 45282]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00014.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00014.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00014.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00014.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00014.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00014.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00014.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00014.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 3.67837977182863
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00015.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00015 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00015.net ./LRR_adaptor_L0/LRR_adaptor_L0_00015.net 100 10
+[simulation PID is: 45284]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00015.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00015.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00015.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00015.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00015.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00015.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00015.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00015.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 4.03701725859655
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00016.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00016 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00016.net ./LRR_adaptor_L0/LRR_adaptor_L0_00016.net 100 10
+[simulation PID is: 45286]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00016.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00016.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00016.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00016.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00016.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00016.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00016.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00016.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 4.43062145758388
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00017.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00017 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00017.net ./LRR_adaptor_L0/LRR_adaptor_L0_00017.net 100 10
+[simulation PID is: 45288]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00017.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00017.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00017.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00017.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00017.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00017.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00017.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00017.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 4.86260158006535
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00018.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00018 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00018.net ./LRR_adaptor_L0/LRR_adaptor_L0_00018.net 100 10
+[simulation PID is: 45290]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00018.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00018.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00018.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00018.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00018.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00018.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00018.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00018.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 5.33669923120631
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00019.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00019 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00019.net ./LRR_adaptor_L0/LRR_adaptor_L0_00019.net 100 10
+[simulation PID is: 45292]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00019.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00019.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00019.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00019.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00019.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00019.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00019.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00019.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 5.85702081805667
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00020.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00020 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00020.net ./LRR_adaptor_L0/LRR_adaptor_L0_00020.net 100 10
+[simulation PID is: 45294]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00020.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00020.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00020.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00020.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00020.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00020.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00020.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00020.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 6.42807311728432
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00021.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00021 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00021.net ./LRR_adaptor_L0/LRR_adaptor_L0_00021.net 100 10
+[simulation PID is: 45296]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00021.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00021.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00021.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00021.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00021.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00021.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00021.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00021.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 7.05480231071864
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00022.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00022 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00022.net ./LRR_adaptor_L0/LRR_adaptor_L0_00022.net 100 10
+[simulation PID is: 45298]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00022.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00022.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00022.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00022.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00022.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00022.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00022.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00022.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 7.74263682681127
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00023.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00023 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00023.net ./LRR_adaptor_L0/LRR_adaptor_L0_00023.net 100 10
+[simulation PID is: 45300]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00023.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00023.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00023.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00023.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00023.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00023.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00023.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00023.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 8.49753435908644
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00024.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00024 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00024.net ./LRR_adaptor_L0/LRR_adaptor_L0_00024.net 100 10
+[simulation PID is: 45302]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00024.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00024.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00024.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00024.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00024.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00024.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00024.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00024.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 9.3260334688322
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00025.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00025 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00025.net ./LRR_adaptor_L0/LRR_adaptor_L0_00025.net 100 10
+[simulation PID is: 45305]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00025.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00025.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00025.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00025.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00025.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00025.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00025.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00025.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 10.2353102189903
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00026.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00026 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00026.net ./LRR_adaptor_L0/LRR_adaptor_L0_00026.net 100 10
+[simulation PID is: 45309]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00026.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00026.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00026.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00026.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00026.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00026.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00026.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00026.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 11.2332403297803
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00027.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00027 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00027.net ./LRR_adaptor_L0/LRR_adaptor_L0_00027.net 100 10
+[simulation PID is: 45314]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00027.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00027.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00027.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00027.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00027.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00027.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00027.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00027.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 12.3284673944207
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00028.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00028 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00028.net ./LRR_adaptor_L0/LRR_adaptor_L0_00028.net 100 10
+[simulation PID is: 45316]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00028.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00028.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00028.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00028.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00028.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00028.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00028.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00028.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 13.5304777457981
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00029.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00029 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00029.net ./LRR_adaptor_L0/LRR_adaptor_L0_00029.net 100 10
+[simulation PID is: 45318]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00029.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00029.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00029.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00029.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00029.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00029.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00029.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00029.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 14.8496826225447
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00030.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00030 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00030.net ./LRR_adaptor_L0/LRR_adaptor_L0_00030.net 100 10
+[simulation PID is: 45320]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00030.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00030.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00030.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00030.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00030.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00030.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00030.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00030.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 16.2975083462064
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00031.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00031 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00031.net ./LRR_adaptor_L0/LRR_adaptor_L0_00031.net 100 10
+[simulation PID is: 45322]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00031.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00031.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00031.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00031.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00031.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00031.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00031.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00031.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 17.8864952905743
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00032.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00032 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00032.net ./LRR_adaptor_L0/LRR_adaptor_L0_00032.net 100 10
+[simulation PID is: 45324]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00032.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00032.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00032.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00032.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00032.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00032.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00032.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00032.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 19.6304065004027
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00033.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00033 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00033.net ./LRR_adaptor_L0/LRR_adaptor_L0_00033.net 100 10
+[simulation PID is: 45326]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00033.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00033.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00033.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00033.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00033.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00033.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00033.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00033.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 21.5443469003188
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00034.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00034 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00034.net ./LRR_adaptor_L0/LRR_adaptor_L0_00034.net 100 10
+[simulation PID is: 45328]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00034.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00034.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00034.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00034.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00034.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00034.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00034.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00034.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 23.6448941264541
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00035.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00035 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00035.net ./LRR_adaptor_L0/LRR_adaptor_L0_00035.net 100 10
+[simulation PID is: 45330]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00035.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00035.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00035.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00035.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00035.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00035.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00035.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00035.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 25.9502421139974
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00036.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00036 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00036.net ./LRR_adaptor_L0/LRR_adaptor_L0_00036.net 100 10
+[simulation PID is: 45332]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00036.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00036.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00036.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00036.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00036.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00036.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00036.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00036.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 28.480358684358
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00037.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00037 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00037.net ./LRR_adaptor_L0/LRR_adaptor_L0_00037.net 100 10
+[simulation PID is: 45334]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00037.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00037.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00037.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00037.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00037.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00037.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00037.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00037.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 31.2571584968824
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00038.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00038 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00038.net ./LRR_adaptor_L0/LRR_adaptor_L0_00038.net 100 10
+[simulation PID is: 45336]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00038.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00038.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00038.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00038.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00038.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00038.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00038.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00038.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 34.3046928631492
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00039.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00039 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00039.net ./LRR_adaptor_L0/LRR_adaptor_L0_00039.net 100 10
+[simulation PID is: 45338]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00039.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00039.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00039.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00039.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00039.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00039.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00039.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00039.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 37.6493580679247
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00040.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00040 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00040.net ./LRR_adaptor_L0/LRR_adaptor_L0_00040.net 100 10
+[simulation PID is: 45340]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00040.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00040.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00040.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00040.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00040.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00040.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00040.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00040.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 41.3201240011534
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00041.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00041 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00041.net ./LRR_adaptor_L0/LRR_adaptor_L0_00041.net 100 10
+[simulation PID is: 45342]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00041.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00041.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00041.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00041.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00041.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00041.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00041.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00041.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 45.3487850812858
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00042.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00042 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00042.net ./LRR_adaptor_L0/LRR_adaptor_L0_00042.net 100 10
+[simulation PID is: 45344]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00042.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00042.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00042.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00042.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00042.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00042.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00042.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00042.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 49.7702356433211
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00043.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00043 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00043.net ./LRR_adaptor_L0/LRR_adaptor_L0_00043.net 100 10
+[simulation PID is: 45346]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00043.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00043.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00043.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00043.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00043.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00043.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00043.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00043.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 54.6227721768434
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00044.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00044 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00044.net ./LRR_adaptor_L0/LRR_adaptor_L0_00044.net 100 10
+[simulation PID is: 45348]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00044.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00044.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00044.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00044.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00044.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00044.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00044.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00044.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 59.9484250318941
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00045.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00045 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00045.net ./LRR_adaptor_L0/LRR_adaptor_L0_00045.net 100 10
+[simulation PID is: 45350]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00045.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00045.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00045.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00045.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00045.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00045.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00045.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00045.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 65.7933224657568
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00046.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00046 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00046.net ./LRR_adaptor_L0/LRR_adaptor_L0_00046.net 100 10
+[simulation PID is: 45352]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00046.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00046.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00046.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00046.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00046.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00046.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00046.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00046.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 72.2080901838547
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00047.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00047 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00047.net ./LRR_adaptor_L0/LRR_adaptor_L0_00047.net 100 10
+[simulation PID is: 45354]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00047.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00047.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00047.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00047.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00047.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00047.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00047.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00047.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 79.2482898353917
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00048.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00048 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00048.net ./LRR_adaptor_L0/LRR_adaptor_L0_00048.net 100 10
+[simulation PID is: 45356]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00048.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00048.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00048.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00048.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00048.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00048.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00048.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00048.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 86.9749002617784
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00049.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00049 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00049.net ./LRR_adaptor_L0/LRR_adaptor_L0_00049.net 100 10
+[simulation PID is: 45358]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00049.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00049.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00049.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00049.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00049.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00049.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00049.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00049.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 95.4548456661834
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00050.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00050 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00050.net ./LRR_adaptor_L0/LRR_adaptor_L0_00050.net 100 10
+[simulation PID is: 45360]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00050.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00050.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00050.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00050.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00050.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00050.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00050.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00050.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 104.761575278967
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00051.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00051 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00051.net ./LRR_adaptor_L0/LRR_adaptor_L0_00051.net 100 10
+[simulation PID is: 45362]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00051.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00051.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00051.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00051.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00051.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00051.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00051.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00051.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 114.975699539774
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00052.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00052 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00052.net ./LRR_adaptor_L0/LRR_adaptor_L0_00052.net 100 10
+[simulation PID is: 45364]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00052.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00052.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00052.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00052.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00052.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00052.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00052.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00052.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 126.185688306602
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00053.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00053 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00053.net ./LRR_adaptor_L0/LRR_adaptor_L0_00053.net 100 10
+[simulation PID is: 45366]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00053.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00053.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00053.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00053.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00053.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00053.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00053.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00053.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 138.488637139387
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00054.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00054 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00054.net ./LRR_adaptor_L0/LRR_adaptor_L0_00054.net 100 10
+[simulation PID is: 45368]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00054.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00054.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00054.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00054.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00054.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00054.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00054.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00054.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 151.991108295293
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00055.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00055 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00055.net ./LRR_adaptor_L0/LRR_adaptor_L0_00055.net 100 10
+[simulation PID is: 45370]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00055.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00055.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00055.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00055.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00055.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00055.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00055.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00055.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 166.810053720006
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00056.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00056 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00056.net ./LRR_adaptor_L0/LRR_adaptor_L0_00056.net 100 10
+[simulation PID is: 45372]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00056.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00056.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00056.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00056.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00056.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00056.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00056.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00056.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 183.073828029537
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00057.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00057 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00057.net ./LRR_adaptor_L0/LRR_adaptor_L0_00057.net 100 10
+[simulation PID is: 45374]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00057.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00057.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00057.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00057.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00057.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00057.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00057.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00057.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 200.923300256505
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00058.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00058 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00058.net ./LRR_adaptor_L0/LRR_adaptor_L0_00058.net 100 10
+[simulation PID is: 45376]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00058.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00058.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00058.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00058.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00058.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00058.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00058.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00058.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 220.513073990305
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00059.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00059 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00059.net ./LRR_adaptor_L0/LRR_adaptor_L0_00059.net 100 10
+[simulation PID is: 45378]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00059.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00059.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00059.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00059.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00059.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00059.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00059.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00059.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 242.012826479438
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00060.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00060 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00060.net ./LRR_adaptor_L0/LRR_adaptor_L0_00060.net 100 10
+[simulation PID is: 45380]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00060.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00060.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00060.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00060.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00060.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00060.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00060.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00060.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 265.608778294669
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00061.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00061 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00061.net ./LRR_adaptor_L0/LRR_adaptor_L0_00061.net 100 10
+[simulation PID is: 45382]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00061.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00061.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00061.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00061.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00061.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00061.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00061.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00061.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 291.505306282518
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00062.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00062 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00062.net ./LRR_adaptor_L0/LRR_adaptor_L0_00062.net 100 10
+[simulation PID is: 45384]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00062.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00062.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00062.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00062.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00062.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00062.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00062.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00062.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 319.926713779738
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00063.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00063 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00063.net ./LRR_adaptor_L0/LRR_adaptor_L0_00063.net 100 10
+[simulation PID is: 45386]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00063.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00063.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00063.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00063.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00063.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00063.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00063.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00063.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 351.119173421513
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00064.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00064 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00064.net ./LRR_adaptor_L0/LRR_adaptor_L0_00064.net 100 10
+[simulation PID is: 45388]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00064.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00064.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00064.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00064.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00064.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00064.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00064.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00064.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 385.352859371053
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00065.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00065 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00065.net ./LRR_adaptor_L0/LRR_adaptor_L0_00065.net 100 10
+[simulation PID is: 45390]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00065.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00065.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00065.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00065.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00065.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00065.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00065.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00065.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 422.92428743895
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00066.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00066 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00066.net ./LRR_adaptor_L0/LRR_adaptor_L0_00066.net 100 10
+[simulation PID is: 45392]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00066.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00066.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00066.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00066.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00066.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00066.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00066.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00066.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 464.158883361278
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00067.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00067 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00067.net ./LRR_adaptor_L0/LRR_adaptor_L0_00067.net 100 10
+[simulation PID is: 45394]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00067.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00067.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00067.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00067.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00067.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00067.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00067.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00067.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 509.413801481638
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00068.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00068 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00068.net ./LRR_adaptor_L0/LRR_adaptor_L0_00068.net 100 10
+[simulation PID is: 45396]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00068.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00068.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00068.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00068.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00068.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00068.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00068.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00068.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 559.081018251223
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00069.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00069 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00069.net ./LRR_adaptor_L0/LRR_adaptor_L0_00069.net 100 10
+[simulation PID is: 45398]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00069.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00069.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00069.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00069.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00069.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00069.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00069.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00069.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 613.590727341318
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00070.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00070 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00070.net ./LRR_adaptor_L0/LRR_adaptor_L0_00070.net 100 10
+[simulation PID is: 45400]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00070.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00070.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00070.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00070.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00070.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00070.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00070.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00070.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 673.415065775082
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00071.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00071 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00071.net ./LRR_adaptor_L0/LRR_adaptor_L0_00071.net 100 10
+[simulation PID is: 45402]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00071.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00071.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00071.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00071.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00071.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00071.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00071.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00071.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 739.072203352578
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00072.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00072 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00072.net ./LRR_adaptor_L0/LRR_adaptor_L0_00072.net 100 10
+[simulation PID is: 45404]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00072.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00072.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00072.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00072.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00072.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00072.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00072.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00072.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 811.130830789687
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00073.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00073 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00073.net ./LRR_adaptor_L0/LRR_adaptor_L0_00073.net 100 10
+[simulation PID is: 45406]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00073.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00073.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00073.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00073.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00073.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00073.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00073.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00073.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 890.215085445039
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00074.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00074 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00074.net ./LRR_adaptor_L0/LRR_adaptor_L0_00074.net 100 10
+[simulation PID is: 45408]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00074.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00074.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00074.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00074.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00074.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00074.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00074.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00074.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 977.009957299226
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00075.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00075 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00075.net ./LRR_adaptor_L0/LRR_adaptor_L0_00075.net 100 10
+[simulation PID is: 45410]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00075.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00075.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00075.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00075.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00075.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00075.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00075.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00075.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1072.26722201032
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00076.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00076 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00076.net ./LRR_adaptor_L0/LRR_adaptor_L0_00076.net 100 10
+[simulation PID is: 45412]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00076.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00076.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00076.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00076.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00076.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00076.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00076.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00076.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1176.811952435
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00077.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00077 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00077.net ./LRR_adaptor_L0/LRR_adaptor_L0_00077.net 100 10
+[simulation PID is: 45414]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00077.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00077.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00077.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00077.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00077.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00077.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00077.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00077.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1291.54966501488
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00078.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00078 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00078.net ./LRR_adaptor_L0/LRR_adaptor_L0_00078.net 100 10
+[simulation PID is: 45416]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00078.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00078.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00078.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00078.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00078.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00078.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00078.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00078.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1417.47416292681
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00079.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00079 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00079.net ./LRR_adaptor_L0/LRR_adaptor_L0_00079.net 100 10
+[simulation PID is: 45418]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00079.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00079.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00079.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00079.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00079.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00079.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00079.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00079.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1555.67614393047
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00080.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00080 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00080.net ./LRR_adaptor_L0/LRR_adaptor_L0_00080.net 100 10
+[simulation PID is: 45420]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00080.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00080.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00080.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00080.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00080.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00080.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00080.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00080.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1707.35264747069
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00081.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00081 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00081.net ./LRR_adaptor_L0/LRR_adaptor_L0_00081.net 100 10
+[simulation PID is: 45422]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00081.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00081.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00081.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00081.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00081.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00081.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00081.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00081.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 1873.81742286039
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00082.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00082 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00082.net ./LRR_adaptor_L0/LRR_adaptor_L0_00082.net 100 10
+[simulation PID is: 45424]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00082.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00082.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00082.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00082.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00082.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00082.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00082.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00082.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 2056.51230834865
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00083.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00083 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00083.net ./LRR_adaptor_L0/LRR_adaptor_L0_00083.net 100 10
+[simulation PID is: 45426]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00083.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00083.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00083.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00083.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00083.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00083.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00083.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00083.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 2257.01971963392
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00084.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00084 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00084.net ./LRR_adaptor_L0/LRR_adaptor_L0_00084.net 100 10
+[simulation PID is: 45428]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00084.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00084.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00084.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00084.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00084.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00084.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00084.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00084.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 2477.07635599171
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00085.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00085 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00085.net ./LRR_adaptor_L0/LRR_adaptor_L0_00085.net 100 10
+[simulation PID is: 45430]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00085.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00085.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00085.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00085.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00085.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00085.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00085.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00085.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 2718.58824273294
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00086.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00086 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00086.net ./LRR_adaptor_L0/LRR_adaptor_L0_00086.net 100 10
+[simulation PID is: 45432]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00086.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00086.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00086.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00086.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00086.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00086.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00086.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00086.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 2983.64724028334
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00087.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00087 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00087.net ./LRR_adaptor_L0/LRR_adaptor_L0_00087.net 100 10
+[simulation PID is: 45434]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00087.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00087.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00087.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00087.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00087.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00087.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00087.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00087.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 3274.54916287773
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00088.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00088 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00088.net ./LRR_adaptor_L0/LRR_adaptor_L0_00088.net 100 10
+[simulation PID is: 45436]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00088.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00088.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00088.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00088.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00088.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00088.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00088.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00088.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 3593.81366380463
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00089.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00089 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00089.net ./LRR_adaptor_L0/LRR_adaptor_L0_00089.net 100 10
+[simulation PID is: 45438]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00089.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00089.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00089.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00089.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00089.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00089.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00089.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00089.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 3944.20605943766
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00090.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00090 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00090.net ./LRR_adaptor_L0/LRR_adaptor_L0_00090.net 100 10
+[simulation PID is: 45440]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00090.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00090.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00090.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00090.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00090.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00090.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00090.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00090.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 4328.76128108306
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00091.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00091 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00091.net ./LRR_adaptor_L0/LRR_adaptor_L0_00091.net 100 10
+[simulation PID is: 45442]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00091.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00091.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00091.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00091.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00091.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00091.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00091.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00091.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 4750.8101621028
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00092.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00092 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00092.net ./LRR_adaptor_L0/LRR_adaptor_L0_00092.net 100 10
+[simulation PID is: 45444]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00092.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00092.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00092.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00092.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00092.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00092.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00092.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00092.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 5214.00828799969
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00093.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00093 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00093.net ./LRR_adaptor_L0/LRR_adaptor_L0_00093.net 100 10
+[simulation PID is: 45446]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00093.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00093.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00093.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00093.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00093.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00093.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00093.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00093.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 5722.36765935022
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00094.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00094 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00094.net ./LRR_adaptor_L0/LRR_adaptor_L0_00094.net 100 10
+[simulation PID is: 45448]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00094.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00094.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00094.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00094.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00094.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00094.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00094.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00094.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 6280.29144183425
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00095.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00095 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00095.net ./LRR_adaptor_L0/LRR_adaptor_L0_00095.net 100 10
+[simulation PID is: 45450]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00095.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00095.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00095.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00095.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00095.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00095.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00095.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00095.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 6892.6121043497
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00096.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00096 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00096.net ./LRR_adaptor_L0/LRR_adaptor_L0_00096.net 100 10
+[simulation PID is: 45452]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00096.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00096.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00096.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00096.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00096.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00096.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00096.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00096.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 7564.6332755463
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00097.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00097 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00097.net ./LRR_adaptor_L0/LRR_adaptor_L0_00097.net 100 10
+[simulation PID is: 45454]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00097.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00097.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00097.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00097.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00097.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00097.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00097.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00097.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 8302.17568131974
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00098.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00098 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00098.net ./LRR_adaptor_L0/LRR_adaptor_L0_00098.net 100 10
+[simulation PID is: 45456]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00098.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00098.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00098.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00098.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00098.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00098.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00098.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00098.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 9111.6275611549
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00099.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00099 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00099.net ./LRR_adaptor_L0/LRR_adaptor_L0_00099.net 100 10
+[simulation PID is: 45458]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00099.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00099.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00099.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00099.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00099.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00099.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00099.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00099.cdat
+WARNING: Changing value of previously defined variable 'L0'
+Set parameter L0 to value 10000
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_adaptor_L0/LRR_adaptor_L0_00100.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_adaptor_L0/LRR_adaptor_L0_00100 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_adaptor_L0/LRR_adaptor_L0_00100.net ./LRR_adaptor_L0/LRR_adaptor_L0_00100.net 100 10
+[simulation PID is: 45460]
+run_network 3.0
+Read 10 parameters from ./LRR_adaptor_L0/LRR_adaptor_L0_00100.net
+Read 14 species from ./LRR_adaptor_L0/LRR_adaptor_L0_00100.net
+Read 6 group(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00100.net
+Read 0 function(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00100.net
+Read 42 reaction(s) from ./LRR_adaptor_L0/LRR_adaptor_L0_00100.net
+42 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00100.cdat.
+Time course of groups written to file ./LRR_adaptor_L0/LRR_adaptor_L0_00100.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_adaptor_L0/LRR_adaptor_L0_00100.cdat
+Reset species concentrations to "SCAN" saved values.
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00001.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00002.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00003.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00004.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00005.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00006.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00007.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00008.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00009.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00010.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00011.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00012.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00013.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00014.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00015.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00016.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00017.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00018.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00019.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00020.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00021.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00022.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00023.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00024.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00025.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00026.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00027.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00028.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00029.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00030.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00031.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00032.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00033.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00034.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00035.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00036.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00037.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00038.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00039.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00040.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00041.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00042.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00043.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00044.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00045.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00046.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00047.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00048.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00049.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00050.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00051.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00052.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00053.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00054.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00055.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00056.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00057.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00058.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00059.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00060.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00061.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00062.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00063.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00064.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00065.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00066.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00067.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00068.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00069.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00070.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00071.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00072.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00073.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00074.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00075.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00076.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00077.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00078.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00079.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00080.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00081.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00082.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00083.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00084.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00085.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00086.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00087.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00088.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00089.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00090.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00091.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00092.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00093.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00094.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00095.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00096.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00097.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00098.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00099.gdat
+Extracting observable trajectory from LRR_adaptor_L0/LRR_adaptor_L0_00100.gdat
+CPU TIME: parameter_scan 2.46 s.
+Finished processing file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/BioNetGen/Workshop_2022/LRR_adaptor/2022_07_11__18_31_46/LRR_adaptor.bngl.
+CPU TIME: total 2.47 s.

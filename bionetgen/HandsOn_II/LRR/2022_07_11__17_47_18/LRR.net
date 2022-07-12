@@ -1,0 +1,41 @@
+# Created by BioNetGen 2.8.3
+begin parameters
+  kp1    0.01
+  km1    1
+  L0     100
+end parameters
+begin molecule types
+  L(r,r)
+  R(l)  
+end molecule types
+begin observables
+  Species Lfree {MatchOnce}L(r,r)
+  Molecules LR L(r,r!1).R(l!1)
+  Species LRR {MatchOnce}L(r!1,r!2).R(l!1).R(l!2)
+end observables
+begin species
+  L(r,r) L0
+  R(l) 10
+  L(r!1,r).R(l!1) 0
+  L(r!1,r!2).R(l!1).R(l!2) 0
+end species
+begin reaction rules
+  lrbind:  L(r) + R(l) <-> L(r!1).R(l!1)  kp1, km1
+end reaction rules
+begin reactions
+    1 1,2 3 2*kp1 #lrbind
+    2 2,3 4 kp1 #lrbind
+    3 3 1,2 km1 #_reverse_lrbind
+    4 4 2,3 2*km1 #_reverse_lrbind
+end reactions
+begin reactions_text
+    1 L(r,r) + R(l) -> L(r!1,r).R(l!1) 2*kp1 #lrbind
+    2 L(r!1,r).R(l!1) + R(l) -> L(r!1,r!2).R(l!1).R(l!2) kp1 #lrbind
+    3 L(r!1,r).R(l!1) -> L(r,r) + R(l) km1 #_reverse_lrbind
+    4 L(r!1,r!2).R(l!1).R(l!2) -> L(r!1,r).R(l!1) + R(l) 2*km1 #_reverse_lrbind
+end reactions_text
+begin groups
+    1 Lfree                1
+    2 LR                   3
+    3 LRR                  4
+end groups

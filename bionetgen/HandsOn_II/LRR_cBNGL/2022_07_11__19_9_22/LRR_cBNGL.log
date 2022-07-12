@@ -1,0 +1,2424 @@
+BioNetGen version 2.8.3
+Reading from file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/BioNetGen/Workshop_2022/LRR_cBNGL/2022_07_11__19_9_22/LRR_cBNGL.bngl (level 0)
+Read 11 parameters.
+Read 2 compartments.
+Read 2 molecule types.
+Read 2 species.
+Read 2 observable(s).
+Read 2 reaction rule(s).
+ACTION: parameter_scan( )
+Saved current species concentrations with label "SCAN"
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+ACTION: generate_network( LRR_cBNGL )
+Iteration   0:     2 species      0 rxns  0.00e+00 CPU s
+Iteration   1:     3 species      1 rxns  0.00e+00 CPU s
+Iteration   2:     4 species      3 rxns  0.00e+00 CPU s
+Iteration   3:     4 species      4 rxns  0.00e+00 CPU s
+Cumulative CPU time for each rule
+Rule   1:     2 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   2:     2 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Total   :     4 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Wrote network in net format to ./LRR_cBNGL.net.
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00001.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00001 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00001.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00001.net 1000 10
+[simulation PID is: 47819]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00001.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00001.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00001.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00001.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00001.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00001.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00001.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00001.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.09749876549306e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00002.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00002 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00002.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00002.net 1000 10
+[simulation PID is: 47821]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00002.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00002.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00002.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00002.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00002.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00002.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00002.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00002.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.20450354025878e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00003.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00003 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00003.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00003.net 1000 10
+[simulation PID is: 47823]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00003.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00003.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00003.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00003.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00003.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00003.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00003.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00003.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.32194114846603e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00004.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00004 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00004.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00004.net 1000 10
+[simulation PID is: 47825]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00004.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00004.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00004.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00004.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00004.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00004.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00004.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00004.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.45082877849594e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00005.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00005 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00005.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00005.net 1000 10
+[simulation PID is: 47827]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00005.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00005.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00005.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00005.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00005.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00005.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00005.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00005.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.59228279334109e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00006.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00006 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00006.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00006.net 1000 10
+[simulation PID is: 47829]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00006.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00006.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00006.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00006.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00006.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00006.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00006.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00006.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.74752840000768e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00007.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00007 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00007.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00007.net 1000 10
+[simulation PID is: 47831]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00007.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00007.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00007.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00007.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00007.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00007.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00007.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00007.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.91791026167249e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00008.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00008 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00008.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00008.net 1000 10
+[simulation PID is: 47833]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00008.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00008.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00008.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00008.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00008.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00008.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00008.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00008.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.10490414451202e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00009.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00009 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00009.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00009.net 1000 10
+[simulation PID is: 47835]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00009.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00009.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00009.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00009.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00009.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00009.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00009.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00009.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.31012970008316e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00010.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00010 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00010.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00010.net 1000 10
+[simulation PID is: 47837]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00010.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00010.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00010.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00010.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00010.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00010.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00010.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00010.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.53536449397011e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00011.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00011 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00011.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00011.net 1000 10
+[simulation PID is: 47839]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00011.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00011.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00011.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00011.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00011.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00011.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00011.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00011.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.78255940220712e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00012.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00012 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00012.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00012.net 1000 10
+[simulation PID is: 47841]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00012.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00012.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00012.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00012.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00012.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00012.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00012.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00012.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 3.05385550883341e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00013.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00013 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00013.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00013.net 1000 10
+[simulation PID is: 47843]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00013.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00013.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00013.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00013.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00013.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00013.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00013.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00013.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 3.35160265093884e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00014.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00014 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00014.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00014.net 1000 10
+[simulation PID is: 47845]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00014.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00014.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00014.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00014.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00014.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00014.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00014.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00014.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 3.67837977182863e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00015.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00015 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00015.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00015.net 1000 10
+[simulation PID is: 47847]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00015.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00015.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00015.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00015.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00015.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00015.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00015.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00015.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 4.03701725859656e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00016.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00016 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00016.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00016.net 1000 10
+[simulation PID is: 47849]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00016.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00016.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00016.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00016.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00016.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00016.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00016.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00016.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 4.43062145758389e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00017.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00017 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00017.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00017.net 1000 10
+[simulation PID is: 47851]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00017.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00017.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00017.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00017.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00017.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00017.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00017.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00017.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 4.86260158006535e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00018.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00018 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00018.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00018.net 1000 10
+[simulation PID is: 47853]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00018.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00018.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00018.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00018.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00018.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00018.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00018.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00018.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 5.3366992312063e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00019.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00019 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00019.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00019.net 1000 10
+[simulation PID is: 47855]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00019.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00019.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00019.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00019.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00019.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00019.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00019.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00019.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 5.85702081805666e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00020.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00020 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00020.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00020.net 1000 10
+[simulation PID is: 47857]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00020.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00020.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00020.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00020.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00020.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00020.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00020.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00020.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 6.42807311728432e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00021.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00021 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00021.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00021.net 1000 10
+[simulation PID is: 47859]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00021.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00021.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00021.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00021.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00021.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00021.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00021.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00021.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 7.05480231071865e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00022.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00022 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00022.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00022.net 1000 10
+[simulation PID is: 47861]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00022.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00022.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00022.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00022.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00022.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00022.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00022.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00022.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 7.74263682681128e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00023.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00023 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00023.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00023.net 1000 10
+[simulation PID is: 47863]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00023.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00023.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00023.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00023.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00023.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00023.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00023.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00023.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 8.49753435908646e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00024.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00024 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00024.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00024.net 1000 10
+[simulation PID is: 47865]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00024.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00024.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00024.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00024.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00024.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00024.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00024.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00024.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 9.32603346883219e-10
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00025.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00025 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00025.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00025.net 1000 10
+[simulation PID is: 47867]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00025.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00025.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00025.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00025.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00025.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00025.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00025.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00025.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.02353102189903e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00026.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00026 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00026.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00026.net 1000 10
+[simulation PID is: 47869]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00026.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00026.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00026.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00026.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00026.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00026.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00026.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00026.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.12332403297803e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00027.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00027 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00027.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00027.net 1000 10
+[simulation PID is: 47871]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00027.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00027.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00027.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00027.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00027.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00027.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00027.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00027.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.23284673944207e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00028.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00028 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00028.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00028.net 1000 10
+[simulation PID is: 47873]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00028.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00028.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00028.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00028.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00028.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00028.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00028.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00028.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.35304777457981e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00029.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00029 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00029.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00029.net 1000 10
+[simulation PID is: 47875]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00029.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00029.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00029.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00029.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00029.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00029.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00029.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00029.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.48496826225447e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00030.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00030 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00030.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00030.net 1000 10
+[simulation PID is: 47877]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00030.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00030.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00030.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00030.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00030.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00030.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00030.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00030.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.62975083462064e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00031.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00031 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00031.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00031.net 1000 10
+[simulation PID is: 47879]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00031.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00031.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00031.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00031.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00031.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00031.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00031.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00031.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.78864952905743e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00032.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00032 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00032.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00032.net 1000 10
+[simulation PID is: 47881]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00032.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00032.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00032.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00032.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00032.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00032.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00032.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00032.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.96304065004027e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00033.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00033 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00033.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00033.net 1000 10
+[simulation PID is: 47883]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00033.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00033.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00033.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00033.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00033.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00033.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00033.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00033.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.15443469003188e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00034.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00034 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00034.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00034.net 1000 10
+[simulation PID is: 47885]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00034.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00034.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00034.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00034.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00034.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00034.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00034.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00034.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.36448941264541e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00035.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00035 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00035.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00035.net 1000 10
+[simulation PID is: 47887]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00035.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00035.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00035.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00035.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00035.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00035.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00035.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00035.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.59502421139974e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00036.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00036 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00036.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00036.net 1000 10
+[simulation PID is: 47889]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00036.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00036.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00036.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00036.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00036.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00036.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00036.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00036.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.84803586843581e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00037.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00037 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00037.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00037.net 1000 10
+[simulation PID is: 47891]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00037.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00037.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00037.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00037.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00037.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00037.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00037.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00037.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 3.12571584968823e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00038.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00038 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00038.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00038.net 1000 10
+[simulation PID is: 47893]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00038.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00038.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00038.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00038.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00038.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00038.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00038.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00038.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 3.43046928631491e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00039.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00039 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00039.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00039.net 1000 10
+[simulation PID is: 47895]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00039.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00039.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00039.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00039.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00039.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00039.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00039.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00039.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 3.76493580679247e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00040.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00040 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00040.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00040.net 1000 10
+[simulation PID is: 47897]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00040.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00040.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00040.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00040.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00040.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00040.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00040.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00040.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 4.13201240011534e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00041.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00041 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00041.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00041.net 1000 10
+[simulation PID is: 47899]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00041.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00041.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00041.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00041.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00041.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00041.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00041.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00041.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 4.53487850812859e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00042.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00042 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00042.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00042.net 1000 10
+[simulation PID is: 47901]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00042.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00042.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00042.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00042.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00042.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00042.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00042.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00042.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 4.97702356433212e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00043.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00043 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00043.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00043.net 1000 10
+[simulation PID is: 47903]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00043.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00043.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00043.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00043.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00043.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00043.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00043.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00043.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 5.46227721768433e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00044.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00044 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00044.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00044.net 1000 10
+[simulation PID is: 47905]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00044.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00044.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00044.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00044.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00044.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00044.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00044.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00044.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 5.9948425031894e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00045.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00045 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00045.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00045.net 1000 10
+[simulation PID is: 47907]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00045.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00045.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00045.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00045.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00045.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00045.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00045.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00045.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 6.57933224657568e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00046.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00046 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00046.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00046.net 1000 10
+[simulation PID is: 47909]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00046.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00046.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00046.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00046.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00046.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00046.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00046.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00046.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 7.22080901838546e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00047.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00047 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00047.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00047.net 1000 10
+[simulation PID is: 47911]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00047.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00047.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00047.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00047.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00047.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00047.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00047.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00047.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 7.92482898353918e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00048.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00048 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00048.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00048.net 1000 10
+[simulation PID is: 47913]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00048.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00048.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00048.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00048.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00048.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00048.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00048.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00048.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 8.69749002617784e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00049.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00049 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00049.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00049.net 1000 10
+[simulation PID is: 47915]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00049.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00049.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00049.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00049.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00049.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00049.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00049.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00049.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 9.54548456661835e-09
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00050.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00050 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00050.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00050.net 1000 10
+[simulation PID is: 47917]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00050.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00050.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00050.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00050.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00050.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00050.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00050.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00050.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.04761575278967e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00051.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00051 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00051.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00051.net 1000 10
+[simulation PID is: 47919]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00051.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00051.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00051.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00051.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00051.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00051.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00051.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00051.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.14975699539773e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00052.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00052 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00052.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00052.net 1000 10
+[simulation PID is: 47921]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00052.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00052.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00052.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00052.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00052.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00052.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00052.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00052.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.26185688306602e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00053.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00053 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00053.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00053.net 1000 10
+[simulation PID is: 47923]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00053.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00053.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00053.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00053.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00053.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00053.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00053.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00053.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.38488637139387e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00054.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00054 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00054.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00054.net 1000 10
+[simulation PID is: 47925]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00054.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00054.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00054.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00054.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00054.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00054.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00054.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00054.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.51991108295293e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00055.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00055 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00055.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00055.net 1000 10
+[simulation PID is: 47927]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00055.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00055.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00055.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00055.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00055.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00055.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00055.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00055.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.66810053720005e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00056.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00056 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00056.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00056.net 1000 10
+[simulation PID is: 47929]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00056.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00056.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00056.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00056.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00056.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00056.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00056.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00056.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.83073828029536e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00057.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00057 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00057.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00057.net 1000 10
+[simulation PID is: 47931]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00057.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00057.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00057.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00057.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00057.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00057.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00057.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00057.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.00923300256504e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00058.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00058 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00058.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00058.net 1000 10
+[simulation PID is: 47933]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00058.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00058.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00058.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00058.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00058.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00058.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00058.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00058.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.20513073990304e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00059.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00059 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00059.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00059.net 1000 10
+[simulation PID is: 47935]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00059.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00059.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00059.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00059.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00059.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00059.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00059.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00059.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.42012826479438e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00060.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00060 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00060.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00060.net 1000 10
+[simulation PID is: 47937]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00060.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00060.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00060.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00060.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00060.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00060.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00060.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00060.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.65608778294669e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00061.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00061 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00061.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00061.net 1000 10
+[simulation PID is: 47939]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00061.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00061.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00061.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00061.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00061.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00061.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00061.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00061.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.91505306282518e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00062.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00062 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00062.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00062.net 1000 10
+[simulation PID is: 47941]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00062.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00062.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00062.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00062.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00062.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00062.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00062.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00062.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 3.19926713779739e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00063.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00063 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00063.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00063.net 1000 10
+[simulation PID is: 47943]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00063.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00063.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00063.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00063.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00063.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00063.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00063.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00063.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 3.51119173421514e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00064.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00064 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00064.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00064.net 1000 10
+[simulation PID is: 47945]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00064.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00064.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00064.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00064.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00064.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00064.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00064.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00064.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 3.85352859371053e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00065.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00065 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00065.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00065.net 1000 10
+[simulation PID is: 47947]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00065.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00065.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00065.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00065.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00065.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00065.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00065.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00065.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 4.2292428743895e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00066.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00066 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00066.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00066.net 1000 10
+[simulation PID is: 47949]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00066.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00066.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00066.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00066.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00066.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00066.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00066.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00066.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 4.64158883361278e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00067.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00067 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00067.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00067.net 1000 10
+[simulation PID is: 47951]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00067.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00067.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00067.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00067.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00067.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00067.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00067.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00067.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 5.09413801481638e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00068.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00068 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00068.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00068.net 1000 10
+[simulation PID is: 47953]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00068.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00068.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00068.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00068.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00068.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00068.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00068.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00068.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 5.59081018251223e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00069.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00069 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00069.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00069.net 1000 10
+[simulation PID is: 47955]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00069.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00069.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00069.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00069.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00069.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00069.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00069.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00069.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 6.13590727341316e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00070.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00070 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00070.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00070.net 1000 10
+[simulation PID is: 47957]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00070.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00070.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00070.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00070.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00070.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00070.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00070.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00070.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 6.73415065775081e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00071.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00071 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00071.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00071.net 1000 10
+[simulation PID is: 47959]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00071.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00071.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00071.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00071.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00071.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00071.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00071.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00071.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 7.39072203352577e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00072.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00072 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00072.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00072.net 1000 10
+[simulation PID is: 47961]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00072.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00072.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00072.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00072.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00072.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00072.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00072.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00072.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 8.11130830789687e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00073.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00073 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00073.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00073.net 1000 10
+[simulation PID is: 47963]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00073.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00073.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00073.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00073.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00073.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00073.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00073.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00073.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 8.90215085445039e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00074.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00074 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00074.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00074.net 1000 10
+[simulation PID is: 47965]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00074.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00074.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00074.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00074.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00074.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00074.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00074.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00074.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 9.77009957299226e-08
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00075.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00075 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00075.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00075.net 1000 10
+[simulation PID is: 47967]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00075.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00075.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00075.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00075.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00075.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00075.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00075.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00075.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.07226722201032e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00076.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00076 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00076.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00076.net 1000 10
+[simulation PID is: 47969]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00076.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00076.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00076.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00076.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00076.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00076.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00076.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00076.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.176811952435e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00077.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00077 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00077.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00077.net 1000 10
+[simulation PID is: 47971]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00077.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00077.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00077.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00077.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00077.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00077.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00077.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00077.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.29154966501488e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00078.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00078 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00078.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00078.net 1000 10
+[simulation PID is: 47973]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00078.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00078.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00078.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00078.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00078.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00078.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00078.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00078.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.4174741629268e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00079.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00079 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00079.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00079.net 1000 10
+[simulation PID is: 47975]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00079.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00079.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00079.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00079.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00079.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00079.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00079.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00079.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.55567614393047e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00080.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00080 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00080.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00080.net 1000 10
+[simulation PID is: 47977]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00080.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00080.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00080.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00080.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00080.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00080.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00080.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00080.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.70735264747069e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00081.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00081 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00081.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00081.net 1000 10
+[simulation PID is: 47979]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00081.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00081.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00081.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00081.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00081.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00081.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00081.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00081.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1.87381742286039e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00082.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00082 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00082.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00082.net 1000 10
+[simulation PID is: 47981]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00082.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00082.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00082.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00082.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00082.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00082.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00082.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00082.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.05651230834865e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00083.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00083 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00083.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00083.net 1000 10
+[simulation PID is: 47983]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00083.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00083.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00083.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00083.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00083.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00083.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00083.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00083.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.25701971963392e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00084.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00084 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00084.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00084.net 1000 10
+[simulation PID is: 47985]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00084.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00084.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00084.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00084.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00084.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00084.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00084.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00084.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.47707635599171e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00085.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00085 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00085.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00085.net 1000 10
+[simulation PID is: 47987]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00085.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00085.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00085.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00085.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00085.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00085.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00085.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00085.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.71858824273294e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00086.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00086 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00086.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00086.net 1000 10
+[simulation PID is: 47989]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00086.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00086.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00086.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00086.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00086.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00086.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00086.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00086.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 2.98364724028334e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00087.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00087 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00087.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00087.net 1000 10
+[simulation PID is: 47991]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00087.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00087.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00087.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00087.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00087.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00087.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00087.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00087.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 3.27454916287773e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00088.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00088 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00088.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00088.net 1000 10
+[simulation PID is: 47993]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00088.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00088.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00088.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00088.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00088.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00088.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00088.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00088.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 3.59381366380463e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00089.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00089 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00089.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00089.net 1000 10
+[simulation PID is: 47996]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00089.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00089.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00089.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00089.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00089.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00089.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00089.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00089.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 3.94420605943766e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00090.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00090 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00090.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00090.net 1000 10
+[simulation PID is: 48000]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00090.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00090.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00090.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00090.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00090.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00090.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00090.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00090.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 4.32876128108306e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00091.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00091 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00091.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00091.net 1000 10
+[simulation PID is: 48004]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00091.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00091.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00091.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00091.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00091.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00091.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00091.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00091.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 4.75081016210279e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00092.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00092 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00092.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00092.net 1000 10
+[simulation PID is: 48007]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00092.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00092.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00092.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00092.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00092.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00092.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00092.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00092.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 5.21400828799969e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00093.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00093 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00093.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00093.net 1000 10
+[simulation PID is: 48009]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00093.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00093.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00093.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00093.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00093.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00093.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00093.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00093.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 5.72236765935022e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00094.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00094 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00094.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00094.net 1000 10
+[simulation PID is: 48011]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00094.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00094.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00094.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00094.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00094.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00094.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00094.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00094.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 6.28029144183425e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00095.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00095 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00095.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00095.net 1000 10
+[simulation PID is: 48013]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00095.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00095.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00095.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00095.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00095.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00095.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00095.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00095.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 6.8926121043497e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00096.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00096 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00096.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00096.net 1000 10
+[simulation PID is: 48015]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00096.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00096.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00096.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00096.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00096.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00096.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00096.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00096.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 7.56463327554629e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00097.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00097 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00097.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00097.net 1000 10
+[simulation PID is: 48017]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00097.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00097.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00097.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00097.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00097.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00097.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00097.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00097.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 8.30217568131974e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00098.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00098 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00098.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00098.net 1000 10
+[simulation PID is: 48019]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00098.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00098.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00098.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00098.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00098.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00098.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00098.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00098.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 9.11162756115489e-07
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00099.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00099 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00099.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00099.net 1000 10
+[simulation PID is: 48021]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00099.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00099.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00099.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00099.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00099.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00099.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00099.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00099.cdat
+WARNING: Changing value of previously defined variable 'lig_conc'
+Set parameter lig_conc to value 1e-06
+Reset species concentrations to "SCAN" saved values.
+ACTION: simulate( method=>"cvode" )
+Network simulation using cvode
+Wrote network in net format to ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00100.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00100 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00100.net ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00100.net 1000 10
+[simulation PID is: 48023]
+run_network 3.0
+Read 11 parameters from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00100.net
+Read 4 species from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00100.net
+Read 2 group(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00100.net
+Read 0 function(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00100.net
+Read 4 reaction(s) from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00100.net
+4 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00100.cdat.
+Time course of groups written to file ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00100.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00100.cdat
+Reset species concentrations to "SCAN" saved values.
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00001.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00002.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00003.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00004.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00005.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00006.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00007.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00008.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00009.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00010.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00011.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00012.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00013.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00014.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00015.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00016.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00017.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00018.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00019.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00020.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00021.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00022.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00023.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00024.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00025.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00026.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00027.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00028.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00029.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00030.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00031.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00032.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00033.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00034.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00035.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00036.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00037.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00038.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00039.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00040.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00041.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00042.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00043.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00044.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00045.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00046.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00047.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00048.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00049.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00050.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00051.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00052.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00053.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00054.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00055.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00056.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00057.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00058.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00059.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00060.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00061.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00062.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00063.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00064.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00065.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00066.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00067.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00068.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00069.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00070.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00071.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00072.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00073.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00074.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00075.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00076.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00077.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00078.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00079.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00080.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00081.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00082.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00083.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00084.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00085.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00086.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00087.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00088.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00089.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00090.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00091.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00092.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00093.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00094.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00095.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00096.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00097.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00098.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00099.gdat
+Extracting observable trajectory from LRR_cBNGL_lig_conc/LRR_cBNGL_lig_conc_00100.gdat
+CPU TIME: parameter_scan 2.22 s.
+Finished processing file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/BioNetGen/Workshop_2022/LRR_cBNGL/2022_07_11__19_9_22/LRR_cBNGL.bngl.
+CPU TIME: total 2.23 s.
