@@ -1,0 +1,32 @@
+begin model
+
+begin parameters
+  kp1 0.01
+  km1 1
+end parameters
+
+begin molecule types
+  L(r)
+  R(l)
+end molecule types
+
+begin species
+  L(r) 100
+  R(l) 100
+end species
+
+begin observables
+  Molecules Lfree L(r)
+  Molecules LR L(r!1).R(l!1)
+end observables
+
+begin reaction rules
+  lrbind: L(r) + R(l) <-> L(r!1).R(l!1) kp1,km1 
+end reaction rules
+
+end model
+
+visualize({type=>'contactmap'})
+visualize({type=>'ruleviz_pattern'})
+visualize({type=>'ruleviz_operation'})
+visualize({type=>'regulatory'})

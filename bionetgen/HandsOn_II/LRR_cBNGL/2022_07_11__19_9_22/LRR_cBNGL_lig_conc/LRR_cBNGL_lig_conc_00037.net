@@ -1,0 +1,30 @@
+# Created by BioNetGen 2.8.3
+begin parameters
+    1 NaV       6.02e8  # Constant
+    2 Vcell     1000  # Constant
+    3 Vec       1000*Vcell  # ConstantExpression
+    4 d_pm      0.01  # Constant
+    5 Acell     1000  # Constant
+    6 Vpm       Acell*d_pm  # ConstantExpression
+    7 lig_conc  2.84803586843581e-09  # Constant
+    8 L0        (lig_conc*NaV)*Vec  # ConstantExpression
+    9 R0        1000  # Constant
+   10 kp1       1e6/NaV  # ConstantExpression
+   11 km1       0.01  # Constant
+end parameters
+begin species
+    1 @EC::L(r,r) L0
+    2 @PM::R(l) R0
+    3 @PM::L(r!1,r)@EC.R(l!1) 0
+    4 @PM::L(r!1,r!2)@EC.R(l!1).R(l!2) 0
+end species
+begin reactions
+    1 1,2 3 2e-06*kp1 #lrbind1 unit_conversion=1/Vec
+    2 3 1,2 km1 #_reverse_lrbind1
+    3 2,3 4 0.1*kp1 #lrbind2 unit_conversion=1/Vpm
+    4 4 2,3 2*km1 #_reverse_lrbind2
+end reactions
+begin groups
+    1 LR                   3
+    2 LRR                  4
+end groups

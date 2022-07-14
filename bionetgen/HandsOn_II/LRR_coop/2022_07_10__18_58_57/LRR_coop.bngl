@@ -1,0 +1,28 @@
+begin model
+begin parameters
+  kp1 0.01
+  km1 1
+  kp2 100*kp1
+  km2 1
+  L0 100
+end parameters
+begin molecule types
+    L(r,r)
+    R(l)
+end molecule types
+begin species
+  L(r,r) L0
+  R(l) 10
+end species
+begin observables
+  Species Lfree L(r,r)
+  Molecules LR L(r,r!1).R(l!1)
+  Species LRR L(r!1,r!2).R(l!1).R(l!2)
+end observables
+begin reaction rules
+  lrbind1: L(r,r) + R(l) <-> L(r!1,r).R(l!1) kp1, km1
+  lrbind2: L(r,r!+) + R(l) <-> L(r!1,r!+).R(l!1) kp2, km2
+end reaction rules
+end model
+#simulate({method=>"ode",t_end=>5,n_steps=>200})
+parameter_scan({method=>"ode",t_end=>1000,n_steps=>10,parameter=>"L0",par_min=>1,par_max=>10000,n_scan_pts=>100,log_scale=>1})

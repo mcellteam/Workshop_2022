@@ -1,0 +1,19 @@
+# Created by BioNetGen 2.8.3
+begin parameters
+    1 kp1    0.01  # Constant
+    2 km1    1  # Constant
+    3 L0     54.6227721768434  # Constant
+end parameters
+begin species
+    1 L(r) L0
+    2 R(l) 10
+    3 L(r!1).R(l!1) 0
+end species
+begin reactions
+    1 1,2 3 kp1 #lrbind
+    2 3 1,2 km1 #_reverse_lrbind
+end reactions
+begin groups
+    1 Lfree                1
+    2 LR                   3
+end groups
