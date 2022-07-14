@@ -3,10 +3,8 @@ begin model
 begin parameters
   N 100
   I0 1
-  b 1.8/N
+  b 0.018
   g 1
-  _InitialConc1 N-I0
-  T_END 100
 end parameters
 
 begin molecule types
@@ -16,8 +14,8 @@ begin molecule types
 end molecule types
 
 begin species
-  S() _InitialConc1
-  I() I0
+  S() 99
+  I() 1
   R() 0
 end species
 
@@ -34,6 +32,5 @@ end reaction rules
 
 end model
 
-#generate_network({overwrite=>1})
-#writeCPYfile()
-simulate({method=>"ode",t_end=>"T_END",n_steps=>100})
+generate_network({overwrite=>1})
+simulate({method=>"ode",t_end=>50,n_steps=>1000})
