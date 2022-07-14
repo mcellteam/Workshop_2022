@@ -12,7 +12,6 @@ import mcell as m
 
 model = m.Model()
 #model.add_viz_output(viz_output)
-# specify that this model uses BioNetGen units (see Table 1)
 model.config.use_bng_units = True
 model.load_bngl('../bngl/Scene_model.bngl')
 # load the information on species (diffusion constants),
@@ -21,4 +20,3 @@ model.initialize()
 #model.export_viz_data_model()
 model.run_iterations(1e6)
 model.end_simulation()
-
