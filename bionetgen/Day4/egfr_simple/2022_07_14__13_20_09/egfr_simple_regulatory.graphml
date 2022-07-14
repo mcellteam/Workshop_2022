@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+<key id="d0" for="node" yfiles.type="nodegraphics"/>
+<key id="d1" for="edge" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <node id="n0">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">EGF</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">EGF(R!1).EGFR(L!1)</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">EGF(R)</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">EGFR</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">EGFR(CR1!1).EGFR(CR1!1)</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">EGFR(CR1)</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">EGFR(L)</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">EGFR(Y1068!1).Grb2(SH2!1)</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">EGFR(Y1068)</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">EGFR(Y1068~P)</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">EGFR(Y1068~U)</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">Grb2(SH2)</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">Grb2(SH3!1).Sos1(PxxP!1)</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n13">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">Grb2(SH3)</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#FFE9C7"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="roundrectangle"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">Sos1(PxxP)</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#CC99FF"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="ellipse"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">_reverse_egfr_grb2</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n16">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#CC99FF"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="ellipse"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">_reverse_grb2_sos1</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n17">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#CC99FF"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="ellipse"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">_reverse_lrbind</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n18">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#CC99FF"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="ellipse"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">_reverse_rdim</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n19">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#CC99FF"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="ellipse"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">dephos</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n20">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#CC99FF"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="ellipse"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">egfr_grb2</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n21">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#CC99FF"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="ellipse"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">grb2_sos1</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n22">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#CC99FF"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="ellipse"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">lrbind</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n23">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#CC99FF"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="ellipse"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">rdim</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n24">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#CC99FF"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="ellipse"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">rint</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n25">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Fill color="#CC99FF"/>
+          <y:BorderStyle color="#999999" type="line" width="1"/>
+          <y:Shape type="ellipse"/>
+          <y:NodeLabel alignment="c" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true">tphos</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="n2::e0" source="n2" target="n22">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n6::e0" source="n6" target="n22">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n22::e0" source="n22" target="n1">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n5::e0" source="n5" target="n22">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#AAAAAA" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n1::e0" source="n1" target="n17">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n17::e0" source="n17" target="n2">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n17::e1" source="n17" target="n6">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n5::e1" source="n5" target="n17">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#AAAAAA" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n5::e2" source="n5" target="n23">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n23::e0" source="n23" target="n4">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n4::e0" source="n4" target="n18">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n18::e0" source="n18" target="n5">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n10::e0" source="n10" target="n25">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n25::e0" source="n25" target="n9">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n8::e0" source="n8" target="n25">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#AAAAAA" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n9::e0" source="n9" target="n19">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n19::e0" source="n19" target="n10">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n8::e1" source="n8" target="n19">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#AAAAAA" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n8::e2" source="n8" target="n20">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n11::e0" source="n11" target="n20">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n20::e0" source="n20" target="n7">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n9::e1" source="n9" target="n20">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#AAAAAA" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n7::e0" source="n7" target="n15">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n15::e0" source="n15" target="n8">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n15::e1" source="n15" target="n11">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n9::e2" source="n9" target="n15">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#AAAAAA" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n13::e0" source="n13" target="n21">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n14::e0" source="n14" target="n21">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n21::e0" source="n21" target="n12">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n12::e0" source="n12" target="n16">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n16::e0" source="n16" target="n13">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n16::e1" source="n16" target="n14">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n1::e1" source="n1" target="n24">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n4::e1" source="n4" target="n24">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n0::e0" source="n0" target="n24">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n3::e0" source="n3" target="n24">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#000000" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n1::e2" source="n1" target="n23">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#AAAAAA" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n1::e3" source="n1" target="n18">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#AAAAAA" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+    <edge id="n4::e2" source="n4" target="n25">
+    <data key="d1">
+      <y:PolyLineEdge>
+        <y:LineStyle color="#AAAAAA" type="line" width="1"/>
+        <y:Arrows source="none" target="standard"/>
+        <y:BendStyle smoothed="false"/>
+      </y:PolyLineEdge>
+    </data>
+    </edge>
+  </graph>
+</graphml>

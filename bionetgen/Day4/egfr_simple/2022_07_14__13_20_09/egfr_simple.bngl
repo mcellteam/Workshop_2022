@@ -1,0 +1,63 @@
+begin model
+
+begin parameters
+  NA 6.02e+23
+  f 1
+  Vo f*1.0e-10
+  V f*3.0e-12
+  EGF_init ((20*1e-9)*NA)*Vo
+  EGFR_init f*1.8e5
+  Grb2_init f*1.5e5
+  Sos1_init f*6.2e4
+  kp1 9.0e7/(NA*Vo)
+  km1 0.06
+  kp2 1.0e7/(NA*V)
+  km2 0.1
+  kp3 0.5
+  km3 4.505
+  kp4 1.5e6/(NA*V)
+  km4 0.05
+  kp5 1.0e7/(NA*V)
+  km5 0.06
+  deg 0.01
+end parameters
+
+begin molecule types
+  EGF(R)
+  EGFR(L,CR1,Y1068~U~P)
+  Grb2(SH2,SH3)
+  Sos1(PxxP)
+end molecule types
+
+begin species
+  EGF(R) 0
+  EGFR(CR1,L,Y1068~U) EGFR_init
+  Grb2(SH2,SH3) Grb2_init
+  Sos1(PxxP) Sos1_init
+end species
+
+begin observables
+  Molecules Sos1_act EGFR(Y1068!1).Grb2(SH2!1,SH3!2).Sos1(PxxP!2)
+  Molecules EGFR_tot EGFR()
+  Molecules Lig_free EGF(R)
+  Species Dim EGFR(CR1!+)
+  Molecules RP EGFR(Y1068~P!+)
+  Molecules Grb2Sos1 Grb2(SH2,SH3!1).Sos1(PxxP!1)
+end observables
+
+begin reaction rules
+  lrbind: EGFR(L,CR1) + EGF(R) <-> EGFR(L!1,CR1).EGF(R!1) kp1,km1 
+  rdim: EGFR(L!+,CR1) + EGFR(L!+,CR1) <-> EGFR(L!+,CR1!1).EGFR(L!+,CR1!1) kp2,km2 
+  tphos: EGFR(CR1!+,Y1068~U) -> EGFR(CR1!+,Y1068~P) kp3 
+  dephos: EGFR(Y1068~P) -> EGFR(Y1068~U) km3 
+  egfr_grb2: EGFR(Y1068~P) + Grb2(SH2) <-> EGFR(Y1068~P!1).Grb2(SH2!1) kp4,km4 
+  grb2_sos1: Grb2(SH3) + Sos1(PxxP) <-> Grb2(SH3!1).Sos1(PxxP!1) kp5,km5 
+  rint: EGF(R!1).EGF(R!2).EGFR(L!1,CR1!3).EGFR(L!2,CR1!3) -> 0 deg 
+end reaction rules
+
+end model
+
+visualize({type=>'contactmap'})
+visualize({type=>'ruleviz_pattern'})
+visualize({type=>'ruleviz_operation'})
+visualize({type=>'regulatory',background=>1,ruleNames=>1})

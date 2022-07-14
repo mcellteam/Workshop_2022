@@ -1,0 +1,14 @@
+# nfsim generated species list for system: 'egfr_simple'
+# warning! this feature is not yet fully tested! 
+EGF(R!1).EGFR(L!1,CR1!2,Y1068~U).EGFR(L!3,CR1!2,Y1068~P!4).EGF(R!3).Grb2(SH2!4,SH3)  1
+EGF(R!1).EGFR(L!1,CR1!2,Y1068~U).EGFR(L!3,CR1!2,Y1068~P).EGF(R!3)  3
+EGF(R!1).EGFR(L!1,CR1!2,Y1068~U).EGFR(L!3,CR1!2,Y1068~U).EGF(R!3)  10
+EGF(R!1).EGFR(L!1,CR1,Y1068~P!2).Grb2(SH2!2,SH3!3).Sos1(PxxP!3)  1
+EGF(R!1).EGFR(L!1,CR1,Y1068~P!2).Grb2(SH2!2,SH3)  2
+EGF(R!1).EGFR(L!1,CR1,Y1068~U)  73
+EGF(R)  10244
+EGFR(L,CR1,Y1068~P!1).Grb2(SH2!1,SH3!2).Sos1(PxxP!2)  1
+EGFR(L,CR1,Y1068~U)  3
+Grb2(SH2,SH3!1).Sos1(PxxP!1)  558
+Grb2(SH2,SH3)  937
+Sos1(PxxP)  60

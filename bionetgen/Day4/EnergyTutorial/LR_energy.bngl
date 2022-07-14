@@ -1,7 +1,8 @@
 begin model
 begin parameters
-  kp1 0.01
-  km1 1
+  G_RR ln(100)
+  E0_RR 0.0
+  phi 1.0
 end parameters
 begin molecule types
     L(r)
@@ -11,13 +12,17 @@ begin species
   L(r) 100
   R(l) 100
 end species
+begin energy patterns
+  L(r!1).R(l!1) G_RR
+end energy patterns
 begin observables
-#  Molecules Lfree L(r)
   Molecules LR L(r!1).R(l!1)
-#  Molecules LRwild R(l!+)
 end observables
 begin reaction rules
-  lrbind: L(r) + R(l) <-> L(r!1).R(l!1) kp1, km1
+  lrbind: L(r) + R(l) <-> L(r!1).R(l!1) Arrhenius(phi,E0_RR)
 end reaction rules
 end model
+
+generate_network({overwrite=>1})
+writeFile({suffix=>"expr",format=>"net",overwrite=>1,evaluate_expressions=>1})
 simulate({method=>"ode",t_end=>5,n_steps=>200})

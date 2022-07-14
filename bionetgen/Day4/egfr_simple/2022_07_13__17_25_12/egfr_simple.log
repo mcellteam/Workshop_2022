@@ -1,0 +1,55 @@
+BioNetGen version 2.8.3
+Reading from file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/BioNetGen/Workshop_2022/bionetgen/Day4/egfr_simple/2022_07_13__17_25_12/egfr_simple.bngl (level 0)
+Read 19 parameters.
+Read 4 molecule types.
+Read 4 species.
+Read 6 observable(s).
+Read 7 reaction rule(s).
+Set concentration of species EGF(R) to value EGF_init
+CPU TIME: setConcentration 0.00 s.
+ACTION: simulate( method=>"cvode" )
+ACTION: generate_network( egfr_simple )
+Iteration   0:     4 species      0 rxns  0.00e+00 CPU s
+Iteration   1:     6 species      2 rxns  0.00e+00 CPU s
+Iteration   2:     7 species      5 rxns  0.00e+00 CPU s
+Iteration   3:     8 species      8 rxns  1.00e-02 CPU s
+Iteration   4:    12 species     14 rxns  0.00e+00 CPU s
+Iteration   5:    17 species     35 rxns  2.00e-02 CPU s
+Iteration   6:    22 species     66 rxns  2.00e-02 CPU s
+Iteration   7:    22 species     86 rxns  2.00e-02 CPU s
+Cumulative CPU time for each rule
+Rule   1:     8 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   2:    20 reactions 2.00e-02 CPU s 1.00e-03 CPU s/rxn
+Rule   3:     4 reactions 2.00e-02 CPU s 5.00e-03 CPU s/rxn
+Rule   4:     6 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   5:    24 reactions 1.00e-02 CPU s 4.17e-04 CPU s/rxn
+Rule   6:    14 reactions 1.00e-02 CPU s 7.14e-04 CPU s/rxn
+Rule   7:    10 reactions 1.00e-02 CPU s 1.00e-03 CPU s/rxn
+Total   :    86 reactions 7.00e-02 CPU s 8.14e-04 CPU s/rxn
+Wrote network in net format to ./egfr_simple.net.
+Network simulation using cvode
+WARNING: writeFile(): Overwriting existing file ./egfr_simple.net.
+Wrote network in net format to ./egfr_simple.net.
+Running run_network on Jamess-MBP
+full command: /Users/faeder/opt/anaconda3/lib/python3.9/site-packages/bionetgen/bng-mac/bin/run_network -o ./egfr_simple -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 0 -g ./egfr_simple.net ./egfr_simple.net 1 120
+[simulation PID is: 90358]
+run_network 3.0
+Read 19 parameters from ./egfr_simple.net
+Read 22 species from ./egfr_simple.net
+Read 6 group(s) from ./egfr_simple.net
+Read 0 function(s) from ./egfr_simple.net
+Found species with index 0 at line 55: assuming this is the null species.
+Found species with index 0 at line 61: assuming this is the null species.
+Found species with index 0 at line 80: assuming this is the null species.
+Read 86 reaction(s) from ./egfr_simple.net
+86 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./egfr_simple.cdat.
+Time course of groups written to file ./egfr_simple.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./egfr_simple.cdat
+CPU TIME: simulate 0.08 s.
+Finished processing file /Users/faeder/Library/CloudStorage/OneDrive-UniversityofPittsburgh/BioNetGen/Workshop_2022/bionetgen/Day4/egfr_simple/2022_07_13__17_25_12/egfr_simple.bngl.
+CPU TIME: total 0.09 s.

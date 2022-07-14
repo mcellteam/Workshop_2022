@@ -1,0 +1,104 @@
+setOption("NumberPerQuantityUnit",6.0221e23)
+begin model
+
+begin parameters
+# fundamental constants
+NA 6.022e23                       # / mol
+PI 3.142                          # Pi , no units
+# Geometry parameters
+rad_cell 1e-4                     # radius of cell 
+cell_dens 1e9                     # density of cells , / L
+width_PM 1e-7                     # effective width of membrane 
+# Compartment volumes
+volEC 1/cell_dens                 # vol .extracellular space , L
+volPM 4*PI*rad_cell^2*width_PM    # virtual vol . of plasma membrane , L
+volCP 4/3*PI*rad_cell^3           # vol . of cytoplasm , L
+# initial concentrations
+conc_L_0 20e-9                    # mol / L
+count_R_0 24000                   # molecules / cell
+conc_Ph_0 10e-9                   # mol / L
+conc_ATP_0 1.0e-3                 # mol / L
+conc_ADP_0 0.1e-3                 # mol / L
+# standard free energy of formation 
+G_LR     -18.43
+G_RR     -4.62
+G_RPh    -16.10
+G_RyP     19.83
+G_ATP     19.83
+G_RyP_Ph  2.29
+G_LRR    -2.29
+G_LRRL   -4.62
+# baseline activation energy 
+E0_LR     -4.62
+E0_RR     -2.29
+E0_RPh    -6.91
+E0_catRR  -4.62
+E0_catPh   2.29
+# rate distribution parameter
+phi        0.5
+end parameters
+
+begin compartments
+EC 3 volEC
+PM 2 volPM EC
+CP 3 volCP PM
+end compartments
+
+begin molecule types
+L(r)                      # ligand
+R(l,d,y~0~P)              # trans - membrane receptor
+Ph(y)                     # phosphotase
+ATP()                     # ATP
+ADP()                     # ADP
+end molecule types
+
+begin seed species
+L@EC(r)                   conc_L_0*NA*volEC
+R@PM(l,d,y~0)             count_R_0
+Ph@CP(y)                  conc_Ph_0*NA*volCP
+$ATP@CP()                 conc_ATP_0*NA*volCP
+$ADP@CP()                 conc_ADP_0*NA*volCP
+end seed species
+
+begin observables
+Molecules Rbound          L(r!1).R(l!1)
+Molecules Rdimer          R(d!1).R(d!1)
+Molecules RyP             R(y~P!?)
+Molecules RyP_Ph          R(y!1).Ph(y!1)
+end observables
+
+begin energy patterns
+# bond energy
+L(r!1).R(l!1)                         G_LR
+R(d!1).R(d!1)                         G_RR
+R(y!1).Ph(y!1)                        G_RPh
+# state energy
+R(y~P!?)                              G_RyP
+# molecule energy
+ATP()                                 G_ATP
+# cooperativity
+R(y~P!1).Ph(y!1)                      G_RyP_Ph
+L(r!1).R(l!1,d!2).R(d!2)              G_LRR
+L(r!1).R(l!1,d!2).R(l!3,d!2).L(r!3)   G_LRRL
+  
+end energy patterns
+
+begin reaction rules
+# ligand binding
+L(r) + R(l) <-> L(r!1).R(l!1)                            Arrhenius(phi,E0_LR)
+# receptor dimerization
+R(d) + R(d) <-> R(d!1).R(d!1)                            Arrhenius(phi,E0_RR)
+# Ph binding
+R(y) + Ph(y) <-> R(y!1).Ph(y!1)                          Arrhenius(phi,E0_RPh)
+# trans - phosphorylation
+R(d!1).R(d!1,y~0) + ATP <-> R(d!1).R(d!1,y~P) + ADP      Arrhenius(phi,E0_catRR)
+# depho sphory lation by phosphtase
+R(y~P!1).Ph(y!1) <-> R(y~0!1).Ph(y!1)                    Arrhenius(phi,E0_catPh)
+end reaction rules
+
+end model
+
+# generate reaction network 
+generate_network ({ overwrite =>1})
+# simulate ODE system to steady state
+simulate ({ method =>"ode" , t_end =>1200 , n_steps =>1200 , atol =>1e-3 , rtol =>1e-7})

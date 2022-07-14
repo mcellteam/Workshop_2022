@@ -6,6 +6,7 @@ begin parameters
   b 1.8/N
   g 1
   _InitialConc1 N-I0
+  T_END 100
 end parameters
 
 begin molecule types
@@ -33,5 +34,6 @@ end reaction rules
 
 end model
 
-generate_network({overwrite=>1})
-writeCPYfile()
+#generate_network({overwrite=>1})
+#writeCPYfile()
+simulate({method=>"ode",t_end=>T_END,n_steps=>100})
