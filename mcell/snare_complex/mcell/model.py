@@ -16,13 +16,9 @@ model = m.Model()
 model.config.use_bng_units = True
 model.load_bngl('../bngl/Scene_model.bngl')
 # load the information on species (diffusion constants),
-# reaction rules, also creates compartment CP as a box with
-# volume 1um^3 and creates release sites for molecules A and B model.load_bngl(’example.bngl’)
 
 model.initialize()
 #model.export_viz_data_model()
 model.run_iterations(1e6)
 model.end_simulation()
 
-# initialize simulation state # simulate 10 iterations
-# final simulation step
