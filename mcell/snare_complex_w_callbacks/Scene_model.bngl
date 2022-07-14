@@ -1,0 +1,92 @@
+begin model
+
+begin parameters
+  MCELL_DIFFUSION_CONSTANT_3D_Ca 2.2e-6
+  MCELL_DIFFUSION_CONSTANT_3D_V_release 0
+  MCELL_DIFFUSION_CONSTANT_2D_snare 0
+  MCELL_DIFFUSION_CONSTANT_3D_glu 2.2e-6
+  NA  6.022e23
+  vcomp 1 #um^3
+  NA_V  NA * vcomp * 1e-15
+  #MCELL_REDEFINE_NA_V 1
+  ITERATIONS 1e6
+  ksp   0.612e8/NA_V # 1/M 1/s
+  ksm 2.32e3 # 1/s
+  kap  3.82e6/NA_V # 1/M 1/s
+  kam 13     # 1/s
+  gamma 2e3 # 1/s
+  delta 0.417e-3 # 1/s # spontaneous release rate
+  k_dock 0.2 # 1/s
+  a 0.025 # Reduced release probability for asynchronous
+  b 0.25 # Calcium binding cooperativity factor
+  Ca0  1e-6*NA_V # Basal calcium concentration # 1/M Nr_ca_molecules
+  ksp5 5*ksp
+  ksp4 4*ksp
+  ksp3 3*ksp
+  ksp2 2*ksp
+  ksp1 1*ksp
+  ksm5 1*b^0*ksm  
+  ksm4 2*b^1*ksm
+  ksm3 3*b^2*ksm  
+  ksm2 4*b^3*ksm 
+  ksm1 5*b^4*ksm
+  kap2 2*kap
+  kap1 1*kap 
+  kam2 1*b^0*kam
+  kam1 2*b^1*kam 
+  agamma a*gamma
+end parameters
+
+begin compartments
+    #Extracellular space (EC) 3D compartment with volume 3um^3
+    EC 3 3
+    # Plasma membrane (PM) 2D compartment with volume 0.01 um x SA um^2
+    PM 2 6e-2 EC
+    # Cytoplasm (CP) 3D volume compartment with volume 1um^3
+    CP 3 vcomp PM
+end compartments
+
+begin molecule types
+  snare(s~0~1~2~3~4~5,a~0~1~2,dv~0~1)
+  Ca
+  V_release()
+  glu
+end molecule types
+
+begin species
+  # SNARE complex are released in the PM
+  snare(s~0,a~0,dv~1)@PM 70
+  # Fixed calcium number in the cytosol
+  Ca@CP Ca0
+end species
+
+begin observables
+  Molecules SNARE_sync snare(s~5)
+  Molecules SNARE_async snare(a~2)
+  Molecules V_release V_release()
+end observables
+
+begin reaction rules
+
+  # Calcium binding to the synchronous component of the sensor
+  snare(s~0)@PM + Ca@CP <-> snare(s~1)@PM ksp5, ksm5
+  snare(s~1)@PM + Ca@CP <-> snare(s~2)@PM ksp4, ksm4
+  snare(s~2)@PM + Ca@CP <-> snare(s~3)@PM ksp3, ksm3
+  snare(s~3)@PM + Ca@CP <-> snare(s~4)@PM ksp2, ksm2
+  snare(s~4)@PM + Ca@CP <-> snare(s~5)@PM ksp1, ksm1
+
+   # Calcium binding to asynchronous component of the sensor
+  snare(a~0)@PM + Ca@CP <-> snare(a~1)@PM kap2, kam2
+  snare(a~1)@PM + Ca@CP <-> snare(a~2)@PM kap1, kam1
+
+  # Synchronous vesicle release
+  sync: snare(s~5,dv~1)@PM -> snare(s~5,dv~0)@PM + V_release()@CP gamma
+  # Asynchronous vesicle release
+  async: snare(dv~1,a~2)@PM -> snare(dv~0,a~2)@PM + V_release()@CP agamma
+  # Vesicle docking to SNARE
+  snare(dv~0) -> snare(dv~1) k_dock
+ end reaction rules
+
+end model
+
+simulate({method=>"ode",seed=>2,t_end=>1,n_steps=>1000})
